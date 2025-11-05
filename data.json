@@ -782,6 +782,66 @@
           "22CARAT 916 HUID हालमार्क ज्वेलरी"
         ],
         "newArrival": true
+      },
+      {
+        "id": 121,
+        "name": "Gold Haar | सोने का हार",
+        "weight": 20.7,
+        "purity": "22K",
+        "images": [
+          "IMG20251004134353edited.webp"
+        ],
+        "sub_category": "सोने का हार",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 122,
+        "name": "Gold Haar | सोने का हार",
+        "weight": 20.7,
+        "purity": "22K",
+        "images": [
+          "IMG20251004134353edited.webp"
+        ],
+        "sub_category": "सोने का हार",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 123,
+        "name": "Gold Haar | सोने का हार",
+        "weight": 20.7,
+        "purity": "22K",
+        "images": [
+          "IMG20251004134353edited.webp"
+        ],
+        "sub_category": "सोने का हार",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 124,
+        "name": "Gold Haar | सोने का हार",
+        "weight": 20.7,
+        "purity": "22K",
+        "images": [
+          "IMG20251004134353edited.webp"
+        ],
+        "sub_category": "सोने का हार",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 125,
+        "name": "Gold Haar | सोने का हार",
+        "weight": 20.7,
+        "purity": "22K",
+        "images": [
+          "IMG20251004134353edited.webp"
+        ],
+        "sub_category": "सोने का हार",
+        "highlights": [],
+        "newArrival": false
       }
     ],
     "पाट की चांदी के कड़े": [
@@ -894,7 +954,9 @@
         "name": "Jents Ring | जेंट्स रिंग",
         "weight": 5.05,
         "purity": "22K",
-        "images": [],
+        "images": [
+          "jr5.webp"
+        ],
         "sub_category": "गोल्ड जेंट्स रिंग",
         "highlights": [],
         "newArrival": false
@@ -904,7 +966,9 @@
         "name": "Jents Ring | जेंट्स रिंग",
         "weight": 5.05,
         "purity": "22K",
-        "images": [],
+        "images": [
+          "jr6.webp"
+        ],
         "sub_category": "गोल्ड जेंट्स रिंग",
         "highlights": [],
         "newArrival": false
@@ -914,7 +978,9 @@
         "name": "Jents Ring | जेंट्स रिंग",
         "weight": 5.05,
         "purity": "22K",
-        "images": [],
+        "images": [
+          "jr7.webp"
+        ],
         "sub_category": "गोल्ड जेंट्स रिंग",
         "highlights": [],
         "newArrival": false
@@ -924,7 +990,9 @@
         "name": "Jents Ring | जेंट्स रिंग",
         "weight": 5.05,
         "purity": "22K",
-        "images": [],
+        "images": [
+          "jr8.webp"
+        ],
         "sub_category": "गोल्ड जेंट्स रिंग",
         "highlights": [],
         "newArrival": false
@@ -934,7 +1002,9 @@
         "name": "Jents Ring | जेंट्स रिंग",
         "weight": 5.05,
         "purity": "22K",
-        "images": [],
+        "images": [
+          "jr9.webp"
+        ],
         "sub_category": "गोल्ड जेंट्स रिंग",
         "highlights": [],
         "newArrival": false
@@ -944,7 +1014,9 @@
         "name": "Jents Ring | जेंट्स रिंग",
         "weight": 5.05,
         "purity": "22K",
-        "images": [],
+        "images": [
+          "jr10.webp"
+        ],
         "sub_category": "गोल्ड जेंट्स रिंग",
         "highlights": [],
         "newArrival": false
@@ -954,7 +1026,9 @@
         "name": "Jents Ring | जेंट्स रिंग",
         "weight": 5.05,
         "purity": "22K",
-        "images": [],
+        "images": [
+          "jr11.webp"
+        ],
         "sub_category": "गोल्ड जेंट्स रिंग",
         "highlights": [],
         "newArrival": false
@@ -964,7 +1038,9 @@
         "name": "Jents Ring | जेंट्स रिंग",
         "weight": 5.05,
         "purity": "22K",
-        "images": [],
+        "images": [
+          "jr12.webp"
+        ],
         "sub_category": "गोल्ड जेंट्स रिंग",
         "highlights": [],
         "newArrival": false
@@ -974,7 +1050,9 @@
         "name": "Jents Ring | जेंट्स रिंग",
         "weight": 5.05,
         "purity": "22K",
-        "images": [],
+        "images": [
+          "jr13.webp"
+        ],
         "sub_category": "गोल्ड जेंट्स रिंग",
         "highlights": [],
         "newArrival": false
@@ -984,7 +1062,9 @@
         "name": "Jents Ring | जेंट्स रिंग",
         "weight": 5.05,
         "purity": "22K",
-        "images": [],
+        "images": [
+          "jr14.webp"
+        ],
         "sub_category": "गोल्ड जेंट्स रिंग",
         "highlights": [],
         "newArrival": false
@@ -994,7 +1074,9 @@
         "name": "Jents Ring | जेंट्स रिंग",
         "weight": 5.05,
         "purity": "22K",
-        "images": [],
+        "images": [
+          "jr15.webp"
+        ],
         "sub_category": "गोल्ड जेंट्स रिंग",
         "highlights": [],
         "newArrival": false
@@ -1004,7 +1086,9 @@
         "name": "Jents Ring | जेंट्स रिंग",
         "weight": 5.05,
         "purity": "22K",
-        "images": [],
+        "images": [
+          "jr16.webp"
+        ],
         "sub_category": "गोल्ड जेंट्स रिंग",
         "highlights": [],
         "newArrival": false
@@ -1342,7 +1426,7 @@
         "weight": 3.25,
         "purity": "22K",
         "images": [
-          "LR.webp"
+          "lr.webp"
         ],
         "sub_category": "गोल्ड लेडीज रिंग",
         "highlights": [],
@@ -1354,7 +1438,7 @@
         "weight": 3.25,
         "purity": "22K",
         "images": [
-          "LR1.webp"
+          "lr1.webp"
         ],
         "sub_category": "गोल्ड लेडीज रिंग",
         "highlights": [],
