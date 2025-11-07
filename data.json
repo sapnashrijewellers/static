@@ -7,7 +7,6 @@
     "Disclaimer* :- *Rates are for reference purpose only, rates may sometimes vary due to high volatility in the market."
   ],
   "sub_categories": [
-    "silver fancy jewellery",
     "गोल्ड कॉइन और बार",
     "गोल्ड जेंट्स रिंग",
     "गोल्ड लेडीज रिंग",
@@ -44,7 +43,7 @@
         "newArrival": false
       }
     ],
-    "सोने के राजस्थानी - राजपूतानी आभूषण": [
+    "सिल्वर बार कॉइन": [
       {
         "id": 2,
         "name": "Silver BAR | चांदी की पासा 99.9%",
@@ -53,161 +52,67 @@
         "images": [
           "1759388692721.webp"
         ],
-        "sub_category": "सोने के राजस्थानी - राजपूतानी आभूषण",
+        "sub_category": "सिल्वर बार कॉइन",
         "highlights": [
           "यह शुद्ध चाँदी के बिस्किट (बार) का संक्षिप्त विवरण (Short Description) है, जिसे निवेश के लिए डिज़ाइन किया गया है"
         ],
         "newArrival": false
       },
       {
-        "id": 71,
-        "name": "Bajuband | बाजूबंद",
-        "weight": 15.82,
-        "purity": "22K",
+        "id": 13,
+        "name": "Silver BAR | चांदी की पासा 99.9%",
+        "weight": 50,
+        "purity": "पाठ की चाँदी",
         "images": [
-          "baju1.webp",
-          "baju01.webp",
-          "baju001.webp"
+          "1759388448028.webp"
         ],
-        "sub_category": "सोने के राजस्थानी - राजपूतानी आभूषण",
+        "sub_category": "सिल्वर बार कॉइन",
         "highlights": [
-          "यह एक खूबसूरत बाजूबंद है। यह सोने से बना है और इस पर मीनाकारी और बारीक कारीगरी की गई है, जिससे इसकी सुंदरता और बढ़ जाती है। इसमें एक केंद्रीय डिज़ाइन है जो शायद एक मोर या कोई पारंपरिक आकृति है, और इसके साथ लटकन भी हैं। यह पारंपरिक राजस्थानी या भारतीय परिधानों के साथ पहनने के लिए एकदम सही है।"
+          "यह SSJ ब्रांड का 999 शुद्धता वाला \"मेक इन इंडिया\" चाँदी का बिस्किट (बार) है। यह बार उच्चतम शुद्धता (99.9%) की गारंटी देता है, जो इसे निवेश के लिए एक बेहतरीन विकल्प बनाता है।"
+        ],
+        "newArrival": false
+      },
+      {
+        "id": 15,
+        "name": "Silver BAR | चांदी की पासा 99.9%",
+        "weight": 200,
+        "purity": "पाठ की चाँदी",
+        "images": [
+          "1759388876949.webp"
+        ],
+        "sub_category": "सिल्वर बार कॉइन",
+        "highlights": [
+          "इस शुद्ध चाँदी के बिस्किट को कम भाव में खरीदकर भविष्य में बढ़ती कीमतों पर बेचने के लिए सुरक्षित रखें। यह ग्राहकों को पारंपरिक और सुरक्षित निवेश का मौका देता है, जिससे वे घर बैठे चाँदी की दरें बढ़ने पर अच्छा मुनाफा कमा सकते हैं।"
         ],
         "newArrival": true
       },
       {
-        "id": 72,
-        "name": "Bajuband | बाजूबंद",
-        "weight": 16,
-        "purity": "22K",
+        "id": 16,
+        "name": "Silver BAR | चांदी की पासा 99.9%",
+        "weight": 500,
+        "purity": "पाठ की चाँदी",
         "images": [
-          "baju2.webp",
-          "baju02.webp",
-          "baju002.webp"
+          "1759387085674.webp"
         ],
-        "sub_category": "सोने के राजस्थानी - राजपूतानी आभूषण",
+        "sub_category": "सिल्वर बार कॉइन",
         "highlights": [
-          "यह 22 कैरेट 916 हॉलमार्क सोने का एक शानदार बाजूबंद है। इसमें खूबसूरत डिज़ाइन और सूक्ष्म विवरण हैं, जो इसे पारंपरिक परिधानों के लिए एक आदर्श आभूषण बनाते हैं। इसकी सुनहरी चमक और मीनाकारी इसे बेहद आकर्षक बनाती है।"
+          "यह भौतिक संपत्ति आपकी पूंजी को सुरक्षित रखने और बढ़ाने का एक विश्वसनीय माध्यम है।"
         ],
-        "newArrival": false
+        "newArrival": true
       },
       {
-        "id": 73,
-        "name": "Bajuband | बाजूबंद",
-        "weight": 15.6,
-        "purity": "22K",
+        "id": 17,
+        "name": "Silver BAR | चांदी की पासा 99.9%",
+        "weight": 1000,
+        "purity": "पाठ की चाँदी",
         "images": [
-          "baju3.webp",
-          "baju03.webp",
-          "baju003.webp"
+          "1759387288115.webp"
         ],
-        "sub_category": "सोने के राजस्थानी - राजपूतानी आभूषण",
+        "sub_category": "सिल्वर बार कॉइन",
         "highlights": [
-          "यह एक आकर्षक 22 कैरेट 916 हॉलमार्क सोने का बाजूबंद है। इसकी अद्वितीय बनावट और पारंपरिक डिज़ाइन इसे किसी भी खास अवसर के लिए उपयुक्त बनाते हैं। बाजूबंद पर बारीक मीनाकारी का काम किया गया है, जो इसकी भव्यता को और बढ़ाता है।"
+          "यह SSJ ब्रांड का 999 शुद्धता वाला \"मेक इन इंडिया\" चाँदी का बिस्किट (बार) है। यह बार उच्चतम शुद्धता (99.9%) की गारंटी देता है, जो इसे निवेश के लिए एक बेहतरीन विकल्प बनाता है।"
         ],
-        "newArrival": false
-      },
-      {
-        "id": 74,
-        "name": "Bajuband | बाजूबंद",
-        "weight": 21.37,
-        "purity": "22K",
-        "images": [
-          "baju4.webp",
-          "baju04.webp",
-          "baju004.webp"
-        ],
-        "sub_category": "सोने के राजस्थानी - राजपूतानी आभूषण",
-        "highlights": [
-          "यह एक खूबसूरत सोने का बाजूबंद है, जिस पर बारीक कारीगरी की गई है। इसमें बीच में एक फूल का डिज़ाइन है और किनारों पर भी छोटे फूल बने हुए हैं। नीचे की तरफ छोटी-छोटी लटकनें और मोतियों जैसी सजावट है, जो इसकी सुंदरता को बढ़ाती है। यह पारंपरिक भारतीय पोशाक के साथ बहुत अच्छा लगेगा।"
-        ],
-        "newArrival": false
-      },
-      {
-        "id": 75,
-        "name": "Bajuband | बाजूबंद",
-        "weight": 18.98,
-        "purity": "22K",
-        "images": [
-          "baju5.webp",
-          "baju05.webp",
-          "baju005.webp"
-        ],
-        "sub_category": "सोने के राजस्थानी - राजपूतानी आभूषण",
-        "highlights": [
-          "यह सोने का एक सुंदर बाजूबंद है, जिस पर बहुत ही intricate (बारीक) डिज़ाइन बना हुआ है। इसके केंद्र में एक खूबसूरत फूल का डिज़ाइन है और चारों ओर जटिल पैटर्न्स हैं। नीचे की तरफ छोटी-छोटी घुंघरू जैसी लटकनें हैं, जो इसकी शोभा बढ़ा रही हैं। यह किसी भी पारंपरिक अवसर के लिए एक आदर्श आभूषण है।"
-        ],
-        "newArrival": false
-      },
-      {
-        "id": 76,
-        "name": "Bajuband | बाजूबंद",
-        "weight": 21.88,
-        "purity": "22K",
-        "images": [
-          "baju6.webp"
-        ],
-        "sub_category": "सोने के राजस्थानी - राजपूतानी आभूषण",
-        "highlights": [
-          "यह एक शानदार सोने का बाजूबंद है, जिस पर सुंदर और विस्तृत कलाकृति की गई है। इसके डिज़ाइन में पारंपरिक रूपांकन (motifs) हैं, जिनमें संभवतः मोर या हंस जैसी आकृतियाँ शामिल हैं, जो इसे एक अनूठा और आकर्षक रूप देती हैं। बाजूबंद के निचले हिस्से में छोटी-छोटी लटकनें हैं, जो इसकी खूबसूरती में चार चाँद लगा रही हैं। यह खास अवसरों के लिए एक बेहतरीन आभूषण है।"
-        ],
-        "newArrival": false
-      },
-      {
-        "id": 77,
-        "name": "Bajuband | बाजूबंद",
-        "weight": 21.9,
-        "purity": "22K",
-        "images": [
-          "baju7.webp"
-        ],
-        "sub_category": "सोने के राजस्थानी - राजपूतानी आभूषण",
-        "highlights": [
-          "यह एक बेहद आकर्षक सोने का बाजूबंद है, जिसमें शानदार floral (पुष्प) डिज़ाइन और बारीक मीनाकारी का काम है। इसकी घुमावदार आकृति और केंद्र में बना जटिल फूल इसे खास बनाता है। बाजूबंद के नीचे की तरफ छोटी-छोटी बूंद जैसी लटकनें लगी हैं, जो इसकी सुंदरता को और बढ़ाती हैं। यह पारंपरिक और आधुनिक दोनों तरह के परिधानों के साथ खूब जंचेगा।"
-        ],
-        "newArrival": false
-      },
-      {
-        "id": 78,
-        "name": "Bajuband | बाजूबंद",
-        "weight": 23.98,
-        "purity": "22K",
-        "images": [
-          "baju8.webp"
-        ],
-        "sub_category": "सोने के राजस्थानी - राजपूतानी आभूषण",
-        "highlights": [
-          "यह सोने का एक बहुत ही खूबसूरत बाजूबंद है, जिसमें शानदार और intricate (बारीक) डिज़ाइन है। इसके केंद्र में एक सुंदर फूल का पैटर्न है, जिसके चारों ओर ज्यामितीय (geometric) और पारंपरिक नक्काशी का काम है। बाजूबंद के निचले हिस्से में मनमोहक लटकनें लगी हैं, जो इसकी चमक और आकर्षण को बढ़ाती हैं। यह विशेष अवसरों पर पहनने के लिए एक बेहतरीन आभूषण है।"
-        ],
-        "newArrival": false
-      },
-      {
-        "id": 79,
-        "name": "Bajuband | बाजूबंद",
-        "weight": 20.97,
-        "purity": "22K",
-        "images": [
-          "baju9.webp"
-        ],
-        "sub_category": "सोने के राजस्थानी - राजपूतानी आभूषण",
-        "highlights": [
-          "यह एक शानदार सोने का बाजूबंद है, जिसमें अत्यंत बारीक और जटिल डिज़ाइन देखने को मिलता है। इसके मध्य में एक सुंदर पुष्प आकृति है, जिसके चारों ओर आकर्षक पैटर्न और थोड़ी-थोड़ी मीनाकारी का काम है। बाजूबंद के निचले हिस्से में छोटी-छोटी खूबसूरत लटकनें लगी हैं, जो इसकी पारंपरिक सुंदरता को और बढ़ाती हैं। यह शादी-ब्याह या किसी भी उत्सव के लिए एक परफेक्ट पीस है।"
-        ],
-        "newArrival": false
-      },
-      {
-        "id": 80,
-        "name": "Bajuband | बाजूबंद",
-        "weight": 19.19,
-        "purity": "22K",
-        "images": [
-          "baju10.webp"
-        ],
-        "sub_category": "सोने के राजस्थानी - राजपूतानी आभूषण",
-        "highlights": [
-          "यह सोने का एक बहुत ही खूबसूरत बाजूबंद है, जिस पर पारंपरिक और intricate (बारीक) डिज़ाइन उकेरा गया है। इसके मध्य भाग में मोर या पंख जैसी आकर्षक आकृतियाँ हैं, जो इसे एक शाही और भव्य रूप देती हैं। बाजूबंद के निचले सिरे पर छोटी-छोटी मनमोहक लटकनें जुड़ी हुई हैं, जो इसकी शोभा में चार चाँद लगाती हैं। यह विशेष अवसरों पर पहनने के लिए एक आदर्श और पारंपरिक आभूषण है।"
-        ],
-        "newArrival": false
+        "newArrival": true
       }
     ],
     "गोल्ड कॉइन और बार": [
@@ -328,6 +233,18 @@
         "newArrival": false
       },
       {
+        "id": 7,
+        "name": "Fancy Silver Churi Gold Polish | चांदी की चुरीया",
+        "weight": 40,
+        "purity": "चाँदी जेवर",
+        "images": [
+          "IMG_20251004_193254.webp"
+        ],
+        "sub_category": "चांदी के अन्य आभूषण",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
         "id": 10,
         "name": "Silver Haar | चांदी का हार",
         "weight": 19.05,
@@ -370,6 +287,18 @@
         "newArrival": false
       },
       {
+        "id": 29,
+        "name": "Silver 925 Bali | चांदी की बाली",
+        "weight": 6.25,
+        "purity": "चाँदी जेवर",
+        "images": [
+          "IMG_20251003_062520.webp"
+        ],
+        "sub_category": "चांदी के अन्य आभूषण",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
         "id": 37,
         "name": "Silver girls ring | गर्ल्स रिंग",
         "weight": 3,
@@ -380,6 +309,44 @@
         "sub_category": "चांदी के अन्य आभूषण",
         "highlights": [],
         "newArrival": true
+      },
+      {
+        "id": 38,
+        "name": "Silver Boys Ring | जेंट्स रिंग",
+        "weight": 7,
+        "purity": "चाँदी जेवर",
+        "images": [
+          "IMG_20251004_193149.webp",
+          "IMG_20251004_193325.webp"
+        ],
+        "sub_category": "चांदी के अन्य आभूषण",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 39,
+        "name": "Silver Boys Ring | जेंट्स रिंग",
+        "weight": 6,
+        "purity": "चाँदी जेवर",
+        "images": [
+          "IMG_20251004_193113.webp",
+          "IMG_20251004_193129.webp"
+        ],
+        "sub_category": "चांदी के अन्य आभूषण",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 40,
+        "name": "Silver girls ring | गर्ल्स रिंग",
+        "weight": 3,
+        "purity": "चाँदी जेवर",
+        "images": [
+          "IMG_20251004_193402.webp"
+        ],
+        "sub_category": "चांदी के अन्य आभूषण",
+        "highlights": [],
+        "newArrival": false
       },
       {
         "id": 41,
@@ -461,70 +428,6 @@
           "यह एक बहुत ही सुंदर और पारंपरिक शुद्ध चांदी का ग्लास (गिलास) है।"
         ],
         "newArrival": true
-      }
-    ],
-    "silver fancy jewellery": [
-      {
-        "id": 7,
-        "name": "Fancy Silver Churi Gold Polish | चांदी की चुरीया",
-        "weight": 40,
-        "purity": "चाँदी जेवर",
-        "images": [
-          "IMG_20251004_193254.webp"
-        ],
-        "sub_category": "silver fancy jewellery",
-        "highlights": [],
-        "newArrival": false
-      },
-      {
-        "id": 29,
-        "name": "Silver 925 Bali | चांदी की बाली",
-        "weight": 6.25,
-        "purity": "चाँदी जेवर",
-        "images": [
-          "IMG_20251003_062520.webp"
-        ],
-        "sub_category": "silver fancy jewellery",
-        "highlights": [],
-        "newArrival": false
-      },
-      {
-        "id": 38,
-        "name": "Silver Boys Ring | जेंट्स रिंग",
-        "weight": 7,
-        "purity": "चाँदी जेवर",
-        "images": [
-          "IMG_20251004_193149.webp",
-          "IMG_20251004_193325.webp"
-        ],
-        "sub_category": "silver fancy jewellery",
-        "highlights": [],
-        "newArrival": false
-      },
-      {
-        "id": 39,
-        "name": "Silver Boys Ring | जेंट्स रिंग",
-        "weight": 6,
-        "purity": "चाँदी जेवर",
-        "images": [
-          "IMG_20251004_193113.webp",
-          "IMG_20251004_193129.webp"
-        ],
-        "sub_category": "silver fancy jewellery",
-        "highlights": [],
-        "newArrival": false
-      },
-      {
-        "id": 40,
-        "name": "Silver girls ring | गर्ल्स रिंग",
-        "weight": 3,
-        "purity": "चाँदी जेवर",
-        "images": [
-          "IMG_20251004_193402.webp"
-        ],
-        "sub_category": "silver fancy jewellery",
-        "highlights": [],
-        "newArrival": false
       }
     ],
     "सोने की चैन": [
@@ -786,9 +689,11 @@
       {
         "id": 121,
         "name": "Gold Haar | सोने का हार",
-        "weight": 20.7,
+        "weight": 0,
         "purity": "22K",
-        "images": [],
+        "images": [
+          "har.webp"
+        ],
         "sub_category": "सोने का हार",
         "highlights": [],
         "newArrival": false
@@ -796,9 +701,11 @@
       {
         "id": 122,
         "name": "Gold Haar | सोने का हार",
-        "weight": 20.7,
+        "weight": 0,
         "purity": "22K",
-        "images": [],
+        "images": [
+          "har1.webp"
+        ],
         "sub_category": "सोने का हार",
         "highlights": [],
         "newArrival": false
@@ -806,9 +713,11 @@
       {
         "id": 123,
         "name": "Gold Haar | सोने का हार",
-        "weight": 20.7,
+        "weight": 0,
         "purity": "22K",
-        "images": [],
+        "images": [
+          "har2.webp"
+        ],
         "sub_category": "सोने का हार",
         "highlights": [],
         "newArrival": false
@@ -816,9 +725,11 @@
       {
         "id": 124,
         "name": "Gold Haar | सोने का हार",
-        "weight": 20.7,
+        "weight": 0,
         "purity": "22K",
-        "images": [],
+        "images": [
+          "har3.webp"
+        ],
         "sub_category": "सोने का हार",
         "highlights": [],
         "newArrival": false
@@ -826,9 +737,11 @@
       {
         "id": 125,
         "name": "Gold Haar | सोने का हार",
-        "weight": 20.7,
+        "weight": 0,
         "purity": "22K",
-        "images": [],
+        "images": [
+          "har4.webp"
+        ],
         "sub_category": "सोने का हार",
         "highlights": [],
         "newArrival": false
@@ -882,7 +795,7 @@
       {
         "id": 104,
         "name": "Jents Ring | जेंट्स रिंग",
-        "weight": 5.05,
+        "weight": 0,
         "purity": "22K",
         "images": [
           "jr.webp"
@@ -894,7 +807,7 @@
       {
         "id": 105,
         "name": "Jents Ring | जेंट्स रिंग",
-        "weight": 5.05,
+        "weight": 0,
         "purity": "22K",
         "images": [
           "jr1.webp"
@@ -906,7 +819,7 @@
       {
         "id": 106,
         "name": "Jents Ring | जेंट्स रिंग",
-        "weight": 5.05,
+        "weight": 0,
         "purity": "22K",
         "images": [
           "jr2.webp"
@@ -918,7 +831,7 @@
       {
         "id": 107,
         "name": "Jents Ring | जेंट्स रिंग",
-        "weight": 5.05,
+        "weight": 0,
         "purity": "22K",
         "images": [
           "jr3.webp"
@@ -930,7 +843,7 @@
       {
         "id": 108,
         "name": "Jents Ring | जेंट्स रिंग",
-        "weight": 5.05,
+        "weight": 0,
         "purity": "22K",
         "images": [
           "jr4.webp"
@@ -942,7 +855,7 @@
       {
         "id": 109,
         "name": "Jents Ring | जेंट्स रिंग",
-        "weight": 5.05,
+        "weight": 0,
         "purity": "22K",
         "images": [
           "jr5.webp"
@@ -954,7 +867,7 @@
       {
         "id": 110,
         "name": "Jents Ring | जेंट्स रिंग",
-        "weight": 5.05,
+        "weight": 0,
         "purity": "22K",
         "images": [
           "jr6.webp"
@@ -966,7 +879,7 @@
       {
         "id": 111,
         "name": "Jents Ring | जेंट्स रिंग",
-        "weight": 5.05,
+        "weight": 0,
         "purity": "22K",
         "images": [
           "jr7.webp"
@@ -978,7 +891,7 @@
       {
         "id": 112,
         "name": "Jents Ring | जेंट्स रिंग",
-        "weight": 5.05,
+        "weight": 0,
         "purity": "22K",
         "images": [
           "jr8.webp"
@@ -990,7 +903,7 @@
       {
         "id": 113,
         "name": "Jents Ring | जेंट्स रिंग",
-        "weight": 5.05,
+        "weight": 0,
         "purity": "22K",
         "images": [
           "jr9.webp"
@@ -1002,7 +915,7 @@
       {
         "id": 114,
         "name": "Jents Ring | जेंट्स रिंग",
-        "weight": 5.05,
+        "weight": 0,
         "purity": "22K",
         "images": [
           "jr10.webp"
@@ -1014,7 +927,7 @@
       {
         "id": 115,
         "name": "Jents Ring | जेंट्स रिंग",
-        "weight": 5.05,
+        "weight": 0,
         "purity": "22K",
         "images": [
           "jr11.webp"
@@ -1026,7 +939,7 @@
       {
         "id": 116,
         "name": "Jents Ring | जेंट्स रिंग",
-        "weight": 5.05,
+        "weight": 0,
         "purity": "22K",
         "images": [
           "jr12.webp"
@@ -1038,7 +951,7 @@
       {
         "id": 117,
         "name": "Jents Ring | जेंट्स रिंग",
-        "weight": 5.05,
+        "weight": 0,
         "purity": "22K",
         "images": [
           "jr13.webp"
@@ -1050,7 +963,7 @@
       {
         "id": 118,
         "name": "Jents Ring | जेंट्स रिंग",
-        "weight": 5.05,
+        "weight": 0,
         "purity": "22K",
         "images": [
           "jr14.webp"
@@ -1062,7 +975,7 @@
       {
         "id": 119,
         "name": "Jents Ring | जेंट्स रिंग",
-        "weight": 5.05,
+        "weight": 0,
         "purity": "22K",
         "images": [
           "jr15.webp"
@@ -1074,7 +987,7 @@
       {
         "id": 120,
         "name": "Jents Ring | जेंट्स रिंग",
-        "weight": 5.05,
+        "weight": 0,
         "purity": "22K",
         "images": [
           "jr16.webp"
@@ -1082,64 +995,6 @@
         "sub_category": "गोल्ड जेंट्स रिंग",
         "highlights": [],
         "newArrival": false
-      }
-    ],
-    "सिल्वर बार कॉइन": [
-      {
-        "id": 13,
-        "name": "Silver BAR | चांदी की पासा 99.9%",
-        "weight": 50,
-        "purity": "पाठ की चाँदी",
-        "images": [
-          "1759388448028.webp"
-        ],
-        "sub_category": "सिल्वर बार कॉइन",
-        "highlights": [
-          "यह SSJ ब्रांड का 999 शुद्धता वाला \"मेक इन इंडिया\" चाँदी का बिस्किट (बार) है। यह बार उच्चतम शुद्धता (99.9%) की गारंटी देता है, जो इसे निवेश के लिए एक बेहतरीन विकल्प बनाता है।"
-        ],
-        "newArrival": false
-      },
-      {
-        "id": 15,
-        "name": "Silver BAR | चांदी की पासा 99.9%",
-        "weight": 200,
-        "purity": "पाठ की चाँदी",
-        "images": [
-          "1759388876949.webp"
-        ],
-        "sub_category": "सिल्वर बार कॉइन",
-        "highlights": [
-          "इस शुद्ध चाँदी के बिस्किट को कम भाव में खरीदकर भविष्य में बढ़ती कीमतों पर बेचने के लिए सुरक्षित रखें। यह ग्राहकों को पारंपरिक और सुरक्षित निवेश का मौका देता है, जिससे वे घर बैठे चाँदी की दरें बढ़ने पर अच्छा मुनाफा कमा सकते हैं।"
-        ],
-        "newArrival": true
-      },
-      {
-        "id": 16,
-        "name": "Silver BAR | चांदी की पासा 99.9%",
-        "weight": 500,
-        "purity": "पाठ की चाँदी",
-        "images": [
-          "1759387085674.webp"
-        ],
-        "sub_category": "सिल्वर बार कॉइन",
-        "highlights": [
-          "यह भौतिक संपत्ति आपकी पूंजी को सुरक्षित रखने और बढ़ाने का एक विश्वसनीय माध्यम है।"
-        ],
-        "newArrival": true
-      },
-      {
-        "id": 17,
-        "name": "Silver BAR | चांदी की पासा 99.9%",
-        "weight": 1000,
-        "purity": "पाठ की चाँदी",
-        "images": [
-          "1759387288115.webp"
-        ],
-        "sub_category": "सिल्वर बार कॉइन",
-        "highlights": [
-          "यह SSJ ब्रांड का 999 शुद्धता वाला \"मेक इन इंडिया\" चाँदी का बिस्किट (बार) है। यह बार उच्चतम शुद्धता (99.9%) की गारंटी देता है, जो इसे निवेश के लिए एक बेहतरीन विकल्प बनाता है।"
-        ],
-        "newArrival": true
       }
     ],
     "मंगलसूत्र": [
@@ -1184,6 +1039,90 @@
           "पेश है यह अद्भुत पारंपरिक डिज़ाइन वाला 22 कैरेट (916 शुद्धता) सोने का पेंडेंट। यह न केवल शुद्धता (HUID हॉलमार्क) की गारंटी देता है, बल्कि अपनी उत्कृष्ट कारीगरी से आपकी सुंदरता को एक नया आयाम देगा।"
         ],
         "newArrival": true
+      },
+      {
+        "id": 136,
+        "name": "MangalSutra Pandle | मंगलसूत्र का पेंडल",
+        "weight": 0,
+        "purity": "22K",
+        "images": [
+          "pandle.webp"
+        ],
+        "sub_category": "मंगलसूत्र",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 137,
+        "name": "MangalSutra Pandle | मंगलसूत्र का पेंडल",
+        "weight": 0,
+        "purity": "22K",
+        "images": [
+          "pandle1.webp"
+        ],
+        "sub_category": "मंगलसूत्र",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 138,
+        "name": "MangalSutra Pandle | मंगलसूत्र का पेंडल",
+        "weight": 0,
+        "purity": "22K",
+        "images": [
+          "pandle2.webp"
+        ],
+        "sub_category": "मंगलसूत्र",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 139,
+        "name": "MangalSutra Pandle | मंगलसूत्र का पेंडल",
+        "weight": 0,
+        "purity": "22K",
+        "images": [
+          "pandle3.webp"
+        ],
+        "sub_category": "मंगलसूत्र",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 140,
+        "name": "MangalSutra Pandle | मंगलसूत्र का पेंडल",
+        "weight": 0,
+        "purity": "22K",
+        "images": [
+          "pandle4.webp"
+        ],
+        "sub_category": "मंगलसूत्र",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 141,
+        "name": "MangalSutra Pandle | मंगलसूत्र का पेंडल",
+        "weight": 0,
+        "purity": "22K",
+        "images": [
+          "pandle5.webp"
+        ],
+        "sub_category": "मंगलसूत्र",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 142,
+        "name": "MangalSutra Pandle | मंगलसूत्र का पेंडल",
+        "weight": 0,
+        "purity": "22K",
+        "images": [
+          "pandle6.webp"
+        ],
+        "sub_category": "मंगलसूत्र",
+        "highlights": [],
+        "newArrival": false
       }
     ],
     "चांदी की चैन": [
@@ -1214,6 +1153,66 @@
           "Fancy Silver Chain."
         ],
         "newArrival": true
+      },
+      {
+        "id": 126,
+        "name": "Silver Chain | चांदी की चैन",
+        "weight": 0,
+        "purity": "चाँदी जेवर",
+        "images": [
+          "silverchain.webp"
+        ],
+        "sub_category": "चांदी की चैन",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 127,
+        "name": "Silver Chain | चांदी की चैन",
+        "weight": 0,
+        "purity": "चाँदी जेवर",
+        "images": [
+          "silverchain1.webp"
+        ],
+        "sub_category": "चांदी की चैन",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 128,
+        "name": "Silver Chain | चांदी की चैन",
+        "weight": 0,
+        "purity": "चाँदी जेवर",
+        "images": [
+          "silverchain2.webp"
+        ],
+        "sub_category": "चांदी की चैन",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 129,
+        "name": "Silver Chain | चांदी की चैन",
+        "weight": 0,
+        "purity": "चाँदी जेवर",
+        "images": [
+          "silverchain3.webp"
+        ],
+        "sub_category": "चांदी की चैन",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 130,
+        "name": "Silver Chain | चांदी की चैन",
+        "weight": 0,
+        "purity": "चाँदी जेवर",
+        "images": [
+          "silverchain4.webp"
+        ],
+        "sub_category": "चांदी की चैन",
+        "highlights": [],
+        "newArrival": false
       }
     ],
     "सोने के टॉप्स": [
@@ -1425,7 +1424,7 @@
       {
         "id": 95,
         "name": "Ladies Ring 916",
-        "weight": 3.25,
+        "weight": 0,
         "purity": "22K",
         "images": [
           "lr1.webp"
@@ -1437,7 +1436,7 @@
       {
         "id": 96,
         "name": "Ladies Ring 916",
-        "weight": 3.25,
+        "weight": 0,
         "purity": "22K",
         "images": [
           "lr2.webp"
@@ -1449,7 +1448,7 @@
       {
         "id": 97,
         "name": "Ladies Ring 916",
-        "weight": 3.25,
+        "weight": 0,
         "purity": "22K",
         "images": [
           "lr3.webp"
@@ -1461,7 +1460,7 @@
       {
         "id": 98,
         "name": "Ladies Ring 916",
-        "weight": 3.25,
+        "weight": 0,
         "purity": "22K",
         "images": [
           "lr4.webp"
@@ -1473,7 +1472,7 @@
       {
         "id": 99,
         "name": "Ladies Ring 916",
-        "weight": 3.25,
+        "weight": 0,
         "purity": "22K",
         "images": [
           "lr5.webp"
@@ -1485,7 +1484,7 @@
       {
         "id": 100,
         "name": "Ladies Ring 916",
-        "weight": 3.25,
+        "weight": 0,
         "purity": "22K",
         "images": [
           "lr6.webp"
@@ -1497,7 +1496,7 @@
       {
         "id": 101,
         "name": "Ladies Ring 916",
-        "weight": 3.25,
+        "weight": 0,
         "purity": "22K",
         "images": [
           "lr7.webp"
@@ -1509,7 +1508,7 @@
       {
         "id": 102,
         "name": "Ladies Ring 916",
-        "weight": 3.25,
+        "weight": 0,
         "purity": "22K",
         "images": [
           "lr8.webp"
@@ -1521,7 +1520,7 @@
       {
         "id": 103,
         "name": "Ladies Ring 916",
-        "weight": 3.25,
+        "weight": 0,
         "purity": "22K",
         "images": [
           "lr9.webp"
@@ -1572,6 +1571,66 @@
         "highlights": [
           "यह मीनाकारी और रंगीन फूलदार काम वाली पारंपरिक चांदी की पायल है, जिसकी जालीदार चेन और लटकते घुंघरू इसे एक बहुत ही आकर्षक और मनमोहक रूप देते हैं"
         ],
+        "newArrival": false
+      },
+      {
+        "id": 131,
+        "name": "Fancy Dulhan Payal | फैंसी दुल्हन पायल",
+        "weight": 0,
+        "purity": "चाँदी जेवर",
+        "images": [
+          "payal.webp"
+        ],
+        "sub_category": "चांदी की पायल",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 132,
+        "name": "Fancy Dulhan Payal | फैंसी दुल्हन पायल",
+        "weight": 0,
+        "purity": "चाँदी जेवर",
+        "images": [
+          "payal1.webp"
+        ],
+        "sub_category": "चांदी की पायल",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 133,
+        "name": "Fancy Dulhan Payal | फैंसी दुल्हन पायल",
+        "weight": 0,
+        "purity": "चाँदी जेवर",
+        "images": [
+          "payal2.webp"
+        ],
+        "sub_category": "चांदी की पायल",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 134,
+        "name": "Fancy Dulhan Payal | फैंसी दुल्हन पायल",
+        "weight": 0,
+        "purity": "चाँदी जेवर",
+        "images": [
+          "payal3.webp"
+        ],
+        "sub_category": "चांदी की पायल",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 135,
+        "name": "Fancy Dulhan Payal | फैंसी दुल्हन पायल",
+        "weight": 0,
+        "purity": "चाँदी जेवर",
+        "images": [
+          "payal4.webp"
+        ],
+        "sub_category": "चांदी की पायल",
+        "highlights": [],
         "newArrival": false
       }
     ],
@@ -1727,6 +1786,158 @@
         "sub_category": "सोने के आभूषण",
         "highlights": [
           "यह 916 (22 कैरेट) शुद्धता वाला सोने का माँग टीका है, जिसमें लाल रत्न जड़े फूल और आकर्षक चेन का डिज़ाइन है, जो किसी भी शुभ अवसर के लिए एकदम सही है।"
+        ],
+        "newArrival": false
+      }
+    ],
+    "सोने के राजस्थानी - राजपूतानी आभूषण": [
+      {
+        "id": 71,
+        "name": "Bajuband | बाजूबंद",
+        "weight": 15.82,
+        "purity": "22K",
+        "images": [
+          "baju1.webp",
+          "baju01.webp",
+          "baju001.webp"
+        ],
+        "sub_category": "सोने के राजस्थानी - राजपूतानी आभूषण",
+        "highlights": [
+          "यह एक खूबसूरत बाजूबंद है। यह सोने से बना है और इस पर मीनाकारी और बारीक कारीगरी की गई है, जिससे इसकी सुंदरता और बढ़ जाती है। इसमें एक केंद्रीय डिज़ाइन है जो शायद एक मोर या कोई पारंपरिक आकृति है, और इसके साथ लटकन भी हैं। यह पारंपरिक राजस्थानी या भारतीय परिधानों के साथ पहनने के लिए एकदम सही है।"
+        ],
+        "newArrival": true
+      },
+      {
+        "id": 72,
+        "name": "Bajuband | बाजूबंद",
+        "weight": 16,
+        "purity": "22K",
+        "images": [
+          "baju2.webp",
+          "baju02.webp",
+          "baju002.webp"
+        ],
+        "sub_category": "सोने के राजस्थानी - राजपूतानी आभूषण",
+        "highlights": [
+          "यह 22 कैरेट 916 हॉलमार्क सोने का एक शानदार बाजूबंद है। इसमें खूबसूरत डिज़ाइन और सूक्ष्म विवरण हैं, जो इसे पारंपरिक परिधानों के लिए एक आदर्श आभूषण बनाते हैं। इसकी सुनहरी चमक और मीनाकारी इसे बेहद आकर्षक बनाती है।"
+        ],
+        "newArrival": false
+      },
+      {
+        "id": 73,
+        "name": "Bajuband | बाजूबंद",
+        "weight": 15.6,
+        "purity": "22K",
+        "images": [
+          "baju3.webp",
+          "baju03.webp",
+          "baju003.webp"
+        ],
+        "sub_category": "सोने के राजस्थानी - राजपूतानी आभूषण",
+        "highlights": [
+          "यह एक आकर्षक 22 कैरेट 916 हॉलमार्क सोने का बाजूबंद है। इसकी अद्वितीय बनावट और पारंपरिक डिज़ाइन इसे किसी भी खास अवसर के लिए उपयुक्त बनाते हैं। बाजूबंद पर बारीक मीनाकारी का काम किया गया है, जो इसकी भव्यता को और बढ़ाता है।"
+        ],
+        "newArrival": false
+      },
+      {
+        "id": 74,
+        "name": "Bajuband | बाजूबंद",
+        "weight": 21.37,
+        "purity": "22K",
+        "images": [
+          "baju4.webp",
+          "baju04.webp",
+          "baju004.webp"
+        ],
+        "sub_category": "सोने के राजस्थानी - राजपूतानी आभूषण",
+        "highlights": [
+          "यह एक खूबसूरत सोने का बाजूबंद है, जिस पर बारीक कारीगरी की गई है। इसमें बीच में एक फूल का डिज़ाइन है और किनारों पर भी छोटे फूल बने हुए हैं। नीचे की तरफ छोटी-छोटी लटकनें और मोतियों जैसी सजावट है, जो इसकी सुंदरता को बढ़ाती है। यह पारंपरिक भारतीय पोशाक के साथ बहुत अच्छा लगेगा।"
+        ],
+        "newArrival": false
+      },
+      {
+        "id": 75,
+        "name": "Bajuband | बाजूबंद",
+        "weight": 18.98,
+        "purity": "22K",
+        "images": [
+          "baju5.webp",
+          "baju05.webp",
+          "baju005.webp"
+        ],
+        "sub_category": "सोने के राजस्थानी - राजपूतानी आभूषण",
+        "highlights": [
+          "यह सोने का एक सुंदर बाजूबंद है, जिस पर बहुत ही intricate (बारीक) डिज़ाइन बना हुआ है। इसके केंद्र में एक खूबसूरत फूल का डिज़ाइन है और चारों ओर जटिल पैटर्न्स हैं। नीचे की तरफ छोटी-छोटी घुंघरू जैसी लटकनें हैं, जो इसकी शोभा बढ़ा रही हैं। यह किसी भी पारंपरिक अवसर के लिए एक आदर्श आभूषण है।"
+        ],
+        "newArrival": false
+      },
+      {
+        "id": 76,
+        "name": "Bajuband | बाजूबंद",
+        "weight": 21.88,
+        "purity": "22K",
+        "images": [
+          "baju6.webp"
+        ],
+        "sub_category": "सोने के राजस्थानी - राजपूतानी आभूषण",
+        "highlights": [
+          "यह एक शानदार सोने का बाजूबंद है, जिस पर सुंदर और विस्तृत कलाकृति की गई है। इसके डिज़ाइन में पारंपरिक रूपांकन (motifs) हैं, जिनमें संभवतः मोर या हंस जैसी आकृतियाँ शामिल हैं, जो इसे एक अनूठा और आकर्षक रूप देती हैं। बाजूबंद के निचले हिस्से में छोटी-छोटी लटकनें हैं, जो इसकी खूबसूरती में चार चाँद लगा रही हैं। यह खास अवसरों के लिए एक बेहतरीन आभूषण है।"
+        ],
+        "newArrival": false
+      },
+      {
+        "id": 77,
+        "name": "Bajuband | बाजूबंद",
+        "weight": 21.9,
+        "purity": "22K",
+        "images": [
+          "baju7.webp"
+        ],
+        "sub_category": "सोने के राजस्थानी - राजपूतानी आभूषण",
+        "highlights": [
+          "यह एक बेहद आकर्षक सोने का बाजूबंद है, जिसमें शानदार floral (पुष्प) डिज़ाइन और बारीक मीनाकारी का काम है। इसकी घुमावदार आकृति और केंद्र में बना जटिल फूल इसे खास बनाता है। बाजूबंद के नीचे की तरफ छोटी-छोटी बूंद जैसी लटकनें लगी हैं, जो इसकी सुंदरता को और बढ़ाती हैं। यह पारंपरिक और आधुनिक दोनों तरह के परिधानों के साथ खूब जंचेगा।"
+        ],
+        "newArrival": false
+      },
+      {
+        "id": 78,
+        "name": "Bajuband | बाजूबंद",
+        "weight": 23.98,
+        "purity": "22K",
+        "images": [
+          "baju8.webp"
+        ],
+        "sub_category": "सोने के राजस्थानी - राजपूतानी आभूषण",
+        "highlights": [
+          "यह सोने का एक बहुत ही खूबसूरत बाजूबंद है, जिसमें शानदार और intricate (बारीक) डिज़ाइन है। इसके केंद्र में एक सुंदर फूल का पैटर्न है, जिसके चारों ओर ज्यामितीय (geometric) और पारंपरिक नक्काशी का काम है। बाजूबंद के निचले हिस्से में मनमोहक लटकनें लगी हैं, जो इसकी चमक और आकर्षण को बढ़ाती हैं। यह विशेष अवसरों पर पहनने के लिए एक बेहतरीन आभूषण है।"
+        ],
+        "newArrival": false
+      },
+      {
+        "id": 79,
+        "name": "Bajuband | बाजूबंद",
+        "weight": 20.97,
+        "purity": "22K",
+        "images": [
+          "baju9.webp"
+        ],
+        "sub_category": "सोने के राजस्थानी - राजपूतानी आभूषण",
+        "highlights": [
+          "यह एक शानदार सोने का बाजूबंद है, जिसमें अत्यंत बारीक और जटिल डिज़ाइन देखने को मिलता है। इसके मध्य में एक सुंदर पुष्प आकृति है, जिसके चारों ओर आकर्षक पैटर्न और थोड़ी-थोड़ी मीनाकारी का काम है। बाजूबंद के निचले हिस्से में छोटी-छोटी खूबसूरत लटकनें लगी हैं, जो इसकी पारंपरिक सुंदरता को और बढ़ाती हैं। यह शादी-ब्याह या किसी भी उत्सव के लिए एक परफेक्ट पीस है।"
+        ],
+        "newArrival": false
+      },
+      {
+        "id": 80,
+        "name": "Bajuband | बाजूबंद",
+        "weight": 19.19,
+        "purity": "22K",
+        "images": [
+          "baju10.webp"
+        ],
+        "sub_category": "सोने के राजस्थानी - राजपूतानी आभूषण",
+        "highlights": [
+          "यह सोने का एक बहुत ही खूबसूरत बाजूबंद है, जिस पर पारंपरिक और intricate (बारीक) डिज़ाइन उकेरा गया है। इसके मध्य भाग में मोर या पंख जैसी आकर्षक आकृतियाँ हैं, जो इसे एक शाही और भव्य रूप देती हैं। बाजूबंद के निचले सिरे पर छोटी-छोटी मनमोहक लटकनें जुड़ी हुई हैं, जो इसकी शोभा में चार चाँद लगाती हैं। यह विशेष अवसरों पर पहनने के लिए एक आदर्श और पारंपरिक आभूषण है।"
         ],
         "newArrival": false
       }
