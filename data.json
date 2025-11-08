@@ -493,7 +493,7 @@
         "weight": 17.8,
         "purity": "22K",
         "images": [
-          "chain1.webp",
+          "Gchain1.webp",
           "chain01.webp"
         ],
         "sub_category": "सोने की चैन",
@@ -508,7 +508,7 @@
         "weight": 12.68,
         "purity": "22K",
         "images": [
-          "chain2.webp"
+          "Gchain2.webp"
         ],
         "sub_category": "सोने की चैन",
         "highlights": [
@@ -522,7 +522,7 @@
         "weight": 23.13,
         "purity": "22K",
         "images": [
-          "chain3.webp"
+          "Gchain3.webp"
         ],
         "sub_category": "सोने की चैन",
         "highlights": [
@@ -536,7 +536,7 @@
         "weight": 21.68,
         "purity": "22K",
         "images": [
-          "chain4.webp"
+          "Gchain4.webp"
         ],
         "sub_category": "सोने की चैन",
         "highlights": [
@@ -550,7 +550,7 @@
         "weight": 24.46,
         "purity": "22K",
         "images": [
-          "chain5.webp"
+          "Gchain5.webp"
         ],
         "sub_category": "सोने की चैन",
         "highlights": [
@@ -564,7 +564,7 @@
         "weight": 10.68,
         "purity": "22K",
         "images": [
-          "chain6.webp"
+          "Gchain6.webp"
         ],
         "sub_category": "सोने की चैन",
         "highlights": [
@@ -578,7 +578,7 @@
         "weight": 20.66,
         "purity": "22K",
         "images": [
-          "chain7.webp"
+          "Gchain7.webp"
         ],
         "sub_category": "सोने की चैन",
         "highlights": [
@@ -592,7 +592,7 @@
         "weight": 13.8,
         "purity": "22K",
         "images": [
-          "chain8.webp"
+          "Gchain8.webp"
         ],
         "sub_category": "सोने की चैन",
         "highlights": [
@@ -669,6 +669,370 @@
           "यह एक 22 कैरेट (916) सोने की मोटी, फैंसी चेन है जिसमें बड़े और भारी बेलनाकार (cylindrical) नक्काशीदार लिंक हैं। इसमें बारीक जाली (filigree) और टेक्सचर वाले लिंक के साथ छोटे गोल लिंक का मिश्रण है, जो इसे शानदार और आकर्षक लुक देता है।"
         ],
         "newArrival": false
+      },
+      {
+        "id": 158,
+        "name": "Ladies Chain | सोने कीचैन",
+        "weight": 10.18,
+        "purity": "22K",
+        "images": [
+          "chain1.webp",
+          "chain01.webp",
+          "chain001.webp"
+        ],
+        "sub_category": "सोने की चैन",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 159,
+        "name": "Ladies Chain | सोने कीचैन",
+        "weight": 7.16,
+        "purity": "22K",
+        "images": [
+          "chain2.webp",
+          "chain02.webp",
+          "chain002.webp"
+        ],
+        "sub_category": "सोने की चैन",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 160,
+        "name": "Jents Gold Chain | जेंट्स की सोने की चैन",
+        "weight": 16.81,
+        "purity": "22K",
+        "images": [
+          "chain3.webp",
+          "chain03.webp",
+          "chain003.webp"
+        ],
+        "sub_category": "सोने की चैन",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 161,
+        "name": "Ladies Chain | सोने कीचैन",
+        "weight": 0,
+        "purity": "22K",
+        "images": [
+          "chain4.webp",
+          "chain04.webp",
+          "chain004.webp"
+        ],
+        "sub_category": "सोने की चैन",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 162,
+        "name": "Jents Gold Chain | जेंट्स की सोने की चैन",
+        "weight": 13.07,
+        "purity": "22K",
+        "images": [
+          "chain5.webp",
+          "chain05.webp",
+          "chain005.webp"
+        ],
+        "sub_category": "सोने की चैन",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 163,
+        "name": "Ladies Chain | सोने कीचैन",
+        "weight": 8.73,
+        "purity": "22K",
+        "images": [
+          "chain6.webp",
+          "chain06.webp",
+          "chain006.webp"
+        ],
+        "sub_category": "सोने की चैन",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 164,
+        "name": "Ladies Chain | सोने कीचैन",
+        "weight": 7.75,
+        "purity": "22K",
+        "images": [
+          "chain7.webp",
+          "chain07.webp",
+          "chain007.webp"
+        ],
+        "sub_category": "सोने की चैन",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 165,
+        "name": "Ladies Chain | सोने कीचैन",
+        "weight": 12,
+        "purity": "22K",
+        "images": [
+          "chain8.webp",
+          "chain08.webp",
+          "chain008.webp"
+        ],
+        "sub_category": "सोने की चैन",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 166,
+        "name": "Ladies Chain | सोने कीचैन",
+        "weight": 16.78,
+        "purity": "22K",
+        "images": [
+          "chain9.webp",
+          "chain09.webp",
+          "chain009.webp"
+        ],
+        "sub_category": "सोने की चैन",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 167,
+        "name": "Ladies Chain | सोने कीचैन",
+        "weight": 13.09,
+        "purity": "22K",
+        "images": [
+          "chain10.webp",
+          "chain010.webp",
+          "chain0010.webp"
+        ],
+        "sub_category": "सोने की चैन",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 168,
+        "name": "Jents Gold Chain | जेंट्स की सोने की चैन",
+        "weight": 8.26,
+        "purity": "22K",
+        "images": [
+          "chain11.webp",
+          "chain011.webp",
+          "chain0011.webp"
+        ],
+        "sub_category": "सोने की चैन",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 169,
+        "name": "Jents Gold Chain | जेंट्स की सोने की चैन",
+        "weight": 9.95,
+        "purity": "22K",
+        "images": [
+          "chain12jpg",
+          "chain012.webp",
+          "chain0012.webp"
+        ],
+        "sub_category": "सोने की चैन",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 170,
+        "name": "Ladies Chain | सोने कीचैन",
+        "weight": 12,
+        "purity": "22K",
+        "images": [
+          "chain13.webp",
+          "chain013.webp",
+          "chain0013.webp"
+        ],
+        "sub_category": "सोने की चैन",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 171,
+        "name": "Common Chain | सोने कीचैन",
+        "weight": 9.28,
+        "purity": "22K",
+        "images": [
+          "chain14.webp",
+          "chain014.webp",
+          "chain0014.webp"
+        ],
+        "sub_category": "सोने की चैन",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 172,
+        "name": "Ladies Chain | सोने कीचैन",
+        "weight": 8.76,
+        "purity": "22K",
+        "images": [
+          "chain15.webp",
+          "chain015.webp",
+          "chain0015.webp"
+        ],
+        "sub_category": "सोने की चैन",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 173,
+        "name": "Common Chain | सोने कीचैन",
+        "weight": 11.79,
+        "purity": "22K",
+        "images": [
+          "chain16.webp",
+          "chain016.webp",
+          "chain0016.webp"
+        ],
+        "sub_category": "सोने की चैन",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 174,
+        "name": "Ladies Chain | सोने कीचैन",
+        "weight": 11.61,
+        "purity": "22K",
+        "images": [
+          "chain17.webp",
+          "chain017.webp",
+          "chain0017.webp"
+        ],
+        "sub_category": "सोने की चैन",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 175,
+        "name": "Common Chain | सोने कीचैन",
+        "weight": 10.03,
+        "purity": "22K",
+        "images": [
+          "chain18.webp",
+          "chain018.webp",
+          "chain0018.webp"
+        ],
+        "sub_category": "सोने की चैन",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 176,
+        "name": "Ladies Chain | सोने कीचैन",
+        "weight": 11.5,
+        "purity": "22K",
+        "images": [
+          "chain19.webp",
+          "chain019.webp",
+          "chain0019.webp"
+        ],
+        "sub_category": "सोने की चैन",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 177,
+        "name": "Ladies Chain | सोने कीचैन",
+        "weight": 8.25,
+        "purity": "22K",
+        "images": [
+          "chain20.webp",
+          "chain020.webp",
+          "chain0020.webp"
+        ],
+        "sub_category": "सोने की चैन",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 178,
+        "name": "Ladies Chain | सोने कीचैन",
+        "weight": 8.68,
+        "purity": "22K",
+        "images": [
+          "chain21.webp",
+          "chain021.webp",
+          "chain0021.webp"
+        ],
+        "sub_category": "सोने की चैन",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 179,
+        "name": "Ladies Chain | सोने कीचैन",
+        "weight": 9.16,
+        "purity": "22K",
+        "images": [
+          "chain22.webp",
+          "chain022.webp",
+          "chain0022.webp"
+        ],
+        "sub_category": "सोने की चैन",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 180,
+        "name": "Ladies Chain | सोने कीचैन",
+        "weight": 3.44,
+        "purity": "22K",
+        "images": [
+          "chain23.webp",
+          "chain023.webp",
+          "chain0023.webp"
+        ],
+        "sub_category": "सोने की चैन",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 181,
+        "name": "Ladies Chain | सोने कीचैन",
+        "weight": 17.5,
+        "purity": "22K",
+        "images": [
+          "chain24.webp",
+          "chain024.webp",
+          "chain0024.webp"
+        ],
+        "sub_category": "सोने की चैन",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 182,
+        "name": "Jents Gold Chain | जेंट्स की सोने की चैन",
+        "weight": 12.68,
+        "purity": "22K",
+        "images": [
+          "chain25.webp",
+          "chain025.webp",
+          "chain0025.webp"
+        ],
+        "sub_category": "सोने की चैन",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 183,
+        "name": "Jents Gold Chain | जेंट्स की सोने की चैन",
+        "weight": 23.13,
+        "purity": "22K",
+        "images": [
+          "chain26.webp",
+          "chain026.webp",
+          "chain0026.webp"
+        ],
+        "sub_category": "सोने की चैन",
+        "highlights": [],
+        "newArrival": false
       }
     ],
     "सोने का हार": [
@@ -692,7 +1056,9 @@
         "weight": 0,
         "purity": "22K",
         "images": [
-          "har.webp"
+          "har5.webp",
+          "har05.webp",
+          "har005.webp"
         ],
         "sub_category": "सोने का हार",
         "highlights": [],
@@ -704,7 +1070,9 @@
         "weight": 0,
         "purity": "22K",
         "images": [
-          "har1.webp"
+          "har1.webp",
+          "har01.webp",
+          "har001.webp"
         ],
         "sub_category": "सोने का हार",
         "highlights": [],
@@ -716,7 +1084,9 @@
         "weight": 0,
         "purity": "22K",
         "images": [
-          "har2.webp"
+          "har2.webp",
+          "har02.webp",
+          "har002.webp"
         ],
         "sub_category": "सोने का हार",
         "highlights": [],
@@ -728,7 +1098,9 @@
         "weight": 0,
         "purity": "22K",
         "images": [
-          "har3.webp"
+          "har3.webp",
+          "har03.webp",
+          "har003.webp"
         ],
         "sub_category": "सोने का हार",
         "highlights": [],
@@ -740,7 +1112,9 @@
         "weight": 0,
         "purity": "22K",
         "images": [
-          "har4.webp"
+          "har4.webp",
+          "har04.webp",
+          "har004.webp"
         ],
         "sub_category": "सोने का हार",
         "highlights": [],
@@ -1417,7 +1791,9 @@
         "weight": 2.44,
         "purity": "22K",
         "images": [
-          "lr1.webp"
+          "lr1.webp",
+          "lr01.webp",
+          "lr001.webp"
         ],
         "sub_category": "गोल्ड लेडीज रिंग",
         "highlights": [],
@@ -1429,7 +1805,9 @@
         "weight": 1.182,
         "purity": "22K",
         "images": [
-          "lr2.webp"
+          "lr2.webp",
+          "lr02.webp",
+          "lr002.webp"
         ],
         "sub_category": "गोल्ड लेडीज रिंग",
         "highlights": [],
@@ -1441,7 +1819,9 @@
         "weight": 2.25,
         "purity": "22K",
         "images": [
-          "lr3.webp"
+          "lr3.webp",
+          "lr03.webp",
+          "lr003.webp"
         ],
         "sub_category": "गोल्ड लेडीज रिंग",
         "highlights": [],
@@ -1453,7 +1833,9 @@
         "weight": 3.01,
         "purity": "22K",
         "images": [
-          "lr4.webp"
+          "lr4.webp",
+          "lr04.webp",
+          "lr004.webp"
         ],
         "sub_category": "गोल्ड लेडीज रिंग",
         "highlights": [],
@@ -1465,7 +1847,9 @@
         "weight": 3.58,
         "purity": "22K",
         "images": [
-          "lr5.webp"
+          "lr5.webp",
+          "lr05.webp",
+          "lr005.webp"
         ],
         "sub_category": "गोल्ड लेडीज रिंग",
         "highlights": [],
@@ -1477,7 +1861,9 @@
         "weight": 2.46,
         "purity": "22K",
         "images": [
-          "lr6.webp"
+          "lr6.webp",
+          "lr06.webp",
+          "lr006.webp"
         ],
         "sub_category": "गोल्ड लेडीज रिंग",
         "highlights": [],
@@ -1489,7 +1875,9 @@
         "weight": 1.78,
         "purity": "22K",
         "images": [
-          "lr7.webp"
+          "lr7.webp",
+          "lr07.webp",
+          "lr007.webp"
         ],
         "sub_category": "गोल्ड लेडीज रिंग",
         "highlights": [],
@@ -1501,7 +1889,79 @@
         "weight": 2.55,
         "purity": "22K",
         "images": [
-          "lr8.webp"
+          "lr8.webp",
+          "lr08.webp",
+          "lr008.webp"
+        ],
+        "sub_category": "गोल्ड लेडीज रिंग",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 103,
+        "name": "Ladies Ring 916",
+        "weight": 1.69,
+        "purity": "22K",
+        "images": [
+          "lr9.webp",
+          "lr09.webp",
+          "lr009.webp"
+        ],
+        "sub_category": "गोल्ड लेडीज रिंग",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 117,
+        "name": "Ladies Ring 916",
+        "weight": 3.76,
+        "purity": "22K",
+        "images": [
+          "lr31.webp",
+          "lr031.webp",
+          "lr0031.webp"
+        ],
+        "sub_category": "गोल्ड लेडीज रिंग",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 118,
+        "name": "Ladies Ring 916",
+        "weight": 4.88,
+        "purity": "22K",
+        "images": [
+          "lr28.webp",
+          "lr028.webp",
+          "lr0028.webp"
+        ],
+        "sub_category": "गोल्ड लेडीज रिंग",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 119,
+        "name": "Ladies Ring 916",
+        "weight": 3.35,
+        "purity": "22K",
+        "images": [
+          "lr27.webp",
+          "lr027.webp",
+          "lr0027.webp"
+        ],
+        "sub_category": "गोल्ड लेडीज रिंग",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 120,
+        "name": "Ladies Ring 916",
+        "weight": 2.4,
+        "purity": "22K",
+        "images": [
+          "lr30.webp",
+          "lr030.webp",
+          "lr0030.webp"
         ],
         "sub_category": "गोल्ड लेडीज रिंग",
         "highlights": [],
@@ -1513,7 +1973,9 @@
         "weight": 1.65,
         "purity": "22K",
         "images": [
-          "lr10.webp"
+          "lr10.webp",
+          "lr010.webp",
+          "lr0010.webp"
         ],
         "sub_category": "गोल्ड लेडीज रिंग",
         "highlights": [],
@@ -1525,7 +1987,9 @@
         "weight": 1.188,
         "purity": "22K",
         "images": [
-          "lr11.webp"
+          "lr11.webp",
+          "lr011.webp",
+          "lr0011.webp"
         ],
         "sub_category": "गोल्ड लेडीज रिंग",
         "highlights": [],
@@ -1537,7 +2001,9 @@
         "weight": 1.86,
         "purity": "22K",
         "images": [
-          "lr13.webp"
+          "lr13.webp",
+          "lr013.webp",
+          "lr0013.webp"
         ],
         "sub_category": "गोल्ड लेडीज रिंग",
         "highlights": [],
@@ -1549,7 +2015,9 @@
         "weight": 3,
         "purity": "22K",
         "images": [
-          "lr14.webp"
+          "lr14.webp",
+          "lr014.webp",
+          "lr0014.webp"
         ],
         "sub_category": "गोल्ड लेडीज रिंग",
         "highlights": [],
@@ -1561,7 +2029,9 @@
         "weight": 3.11,
         "purity": "22K",
         "images": [
-          "lr15.webp"
+          "lr15.webp",
+          "lr015.webp",
+          "lr0015.webp"
         ],
         "sub_category": "गोल्ड लेडीज रिंग",
         "highlights": [],
@@ -1573,7 +2043,9 @@
         "weight": 2.18,
         "purity": "22K",
         "images": [
-          "lr16.webp"
+          "lr16.webp",
+          "lr016.webp",
+          "lr0016.webp"
         ],
         "sub_category": "गोल्ड लेडीज रिंग",
         "highlights": [],
@@ -1585,7 +2057,9 @@
         "weight": 2.2,
         "purity": "22K",
         "images": [
-          "lr17.webp"
+          "lr17.webp",
+          "lr017.webp",
+          "lr0017.webp"
         ],
         "sub_category": "गोल्ड लेडीज रिंग",
         "highlights": [],
@@ -1597,7 +2071,9 @@
         "weight": 2.44,
         "purity": "22K",
         "images": [
-          "lr18.webp"
+          "lr18.webp",
+          "lr018.webp",
+          "lr0018.webp"
         ],
         "sub_category": "गोल्ड लेडीज रिंग",
         "highlights": [],
@@ -1609,7 +2085,9 @@
         "weight": 2.25,
         "purity": "22K",
         "images": [
-          "lr19.webp"
+          "lr19.webp",
+          "lr019.webp",
+          "lr0019.webp"
         ],
         "sub_category": "गोल्ड लेडीज रिंग",
         "highlights": [],
@@ -1621,7 +2099,9 @@
         "weight": 2.42,
         "purity": "22K",
         "images": [
-          "lr20.webp"
+          "lr20.webp",
+          "lr020.webp",
+          "lr0020.webp"
         ],
         "sub_category": "गोल्ड लेडीज रिंग",
         "highlights": [],
@@ -1633,7 +2113,9 @@
         "weight": 1.69,
         "purity": "22K",
         "images": [
-          "lr21.webp"
+          "lr21.webp",
+          "lr021.webp",
+          "lr0021.webp"
         ],
         "sub_category": "गोल्ड लेडीज रिंग",
         "highlights": [],
@@ -1645,7 +2127,9 @@
         "weight": 1.62,
         "purity": "22K",
         "images": [
-          "lr22.webp"
+          "lr22.webp",
+          "lr022.webp",
+          "lr0022.webp"
         ],
         "sub_category": "गोल्ड लेडीज रिंग",
         "highlights": [],
@@ -1657,7 +2141,9 @@
         "weight": 2.71,
         "purity": "22K",
         "images": [
-          "lr23.webp"
+          "lr23.webp",
+          "lr023.webp",
+          "lr0023.webp"
         ],
         "sub_category": "गोल्ड लेडीज रिंग",
         "highlights": [],
@@ -1669,7 +2155,9 @@
         "weight": 3.76,
         "purity": "22K",
         "images": [
-          "lr24.webp"
+          "lr24.webp",
+          "lr024.webp",
+          "lr0024.webp"
         ],
         "sub_category": "गोल्ड लेडीज रिंग",
         "highlights": [],
@@ -1681,7 +2169,9 @@
         "weight": 4.34,
         "purity": "22K",
         "images": [
-          "lr25.webp"
+          "lr25.webp",
+          "lr025.webp",
+          "lr0025.webp"
         ],
         "sub_category": "गोल्ड लेडीज रिंग",
         "highlights": [],
