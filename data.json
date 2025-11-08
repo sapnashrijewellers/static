@@ -795,7 +795,7 @@
       {
         "id": 104,
         "name": "Jents Ring | जेंट्स रिंग",
-        "weight": 0,
+        "weight": 2.64,
         "purity": "22K",
         "images": [
           "jr.webp"
@@ -807,10 +807,12 @@
       {
         "id": 105,
         "name": "Jents Ring | जेंट्स रिंग",
-        "weight": 0,
+        "weight": 6.57,
         "purity": "22K",
         "images": [
-          "jr1.webp"
+          "jr1.webp",
+          "jr01.webp",
+          "jr001.webp"
         ],
         "sub_category": "गोल्ड जेंट्स रिंग",
         "highlights": [],
@@ -819,10 +821,12 @@
       {
         "id": 106,
         "name": "Jents Ring | जेंट्स रिंग",
-        "weight": 0,
+        "weight": 6.83,
         "purity": "22K",
         "images": [
-          "jr2.webp"
+          "jr2.webp",
+          "jr02.webp",
+          "jr002.webp"
         ],
         "sub_category": "गोल्ड जेंट्स रिंग",
         "highlights": [],
@@ -831,10 +835,12 @@
       {
         "id": 107,
         "name": "Jents Ring | जेंट्स रिंग",
-        "weight": 0,
+        "weight": 4.95,
         "purity": "22K",
         "images": [
-          "jr3.webp"
+          "jr3.webp",
+          "jr03.webp",
+          "jr003.webp"
         ],
         "sub_category": "गोल्ड जेंट्स रिंग",
         "highlights": [],
@@ -843,10 +849,12 @@
       {
         "id": 108,
         "name": "Jents Ring | जेंट्स रिंग",
-        "weight": 0,
+        "weight": 4.63,
         "purity": "22K",
         "images": [
-          "jr4.webp"
+          "jr4.webp",
+          "jr04.webp",
+          "jr004.webp"
         ],
         "sub_category": "गोल्ड जेंट्स रिंग",
         "highlights": [],
@@ -855,10 +863,12 @@
       {
         "id": 109,
         "name": "Jents Ring | जेंट्स रिंग",
-        "weight": 0,
+        "weight": 5.25,
         "purity": "22K",
         "images": [
-          "jr5.webp"
+          "jr5.webp",
+          "jr05.webp",
+          "jr001.webp"
         ],
         "sub_category": "गोल्ड जेंट्स रिंग",
         "highlights": [],
@@ -867,10 +877,12 @@
       {
         "id": 110,
         "name": "Jents Ring | जेंट्स रिंग",
-        "weight": 0,
+        "weight": 5.83,
         "purity": "22K",
         "images": [
-          "jr6.webp"
+          "jr6.webp",
+          "jr06.webp",
+          "jr006.webp"
         ],
         "sub_category": "गोल्ड जेंट्स रिंग",
         "highlights": [],
@@ -879,10 +891,12 @@
       {
         "id": 111,
         "name": "Jents Ring | जेंट्स रिंग",
-        "weight": 0,
+        "weight": 2.59,
         "purity": "22K",
         "images": [
-          "jr7.webp"
+          "jr7.webp",
+          "jr07.webp",
+          "jr007.webp"
         ],
         "sub_category": "गोल्ड जेंट्स रिंग",
         "highlights": [],
@@ -891,10 +905,12 @@
       {
         "id": 112,
         "name": "Jents Ring | जेंट्स रिंग",
-        "weight": 0,
+        "weight": 3.08,
         "purity": "22K",
         "images": [
-          "jr8.webp"
+          "jr8.webp",
+          "jr08.webp",
+          "jr008.webp"
         ],
         "sub_category": "गोल्ड जेंट्स रिंग",
         "highlights": [],
@@ -903,94 +919,12 @@
       {
         "id": 113,
         "name": "Jents Ring | जेंट्स रिंग",
-        "weight": 0,
+        "weight": 2.64,
         "purity": "22K",
         "images": [
-          "jr9.webp"
-        ],
-        "sub_category": "गोल्ड जेंट्स रिंग",
-        "highlights": [],
-        "newArrival": false
-      },
-      {
-        "id": 114,
-        "name": "Jents Ring | जेंट्स रिंग",
-        "weight": 0,
-        "purity": "22K",
-        "images": [
-          "jr10.webp"
-        ],
-        "sub_category": "गोल्ड जेंट्स रिंग",
-        "highlights": [],
-        "newArrival": false
-      },
-      {
-        "id": 115,
-        "name": "Jents Ring | जेंट्स रिंग",
-        "weight": 0,
-        "purity": "22K",
-        "images": [
-          "jr11.webp"
-        ],
-        "sub_category": "गोल्ड जेंट्स रिंग",
-        "highlights": [],
-        "newArrival": false
-      },
-      {
-        "id": 116,
-        "name": "Jents Ring | जेंट्स रिंग",
-        "weight": 0,
-        "purity": "22K",
-        "images": [
-          "jr12.webp"
-        ],
-        "sub_category": "गोल्ड जेंट्स रिंग",
-        "highlights": [],
-        "newArrival": false
-      },
-      {
-        "id": 117,
-        "name": "Jents Ring | जेंट्स रिंग",
-        "weight": 0,
-        "purity": "22K",
-        "images": [
-          "jr13.webp"
-        ],
-        "sub_category": "गोल्ड जेंट्स रिंग",
-        "highlights": [],
-        "newArrival": false
-      },
-      {
-        "id": 118,
-        "name": "Jents Ring | जेंट्स रिंग",
-        "weight": 0,
-        "purity": "22K",
-        "images": [
-          "jr14.webp"
-        ],
-        "sub_category": "गोल्ड जेंट्स रिंग",
-        "highlights": [],
-        "newArrival": false
-      },
-      {
-        "id": 119,
-        "name": "Jents Ring | जेंट्स रिंग",
-        "weight": 0,
-        "purity": "22K",
-        "images": [
-          "jr15.webp"
-        ],
-        "sub_category": "गोल्ड जेंट्स रिंग",
-        "highlights": [],
-        "newArrival": false
-      },
-      {
-        "id": 120,
-        "name": "Jents Ring | जेंट्स रिंग",
-        "weight": 0,
-        "purity": "22K",
-        "images": [
-          "jr16.webp"
+          "jr10.webp",
+          "jr010.webp",
+          "jr0010.webp"
         ],
         "sub_category": "गोल्ड जेंट्स रिंग",
         "highlights": [],
@@ -1041,12 +975,56 @@
         "newArrival": true
       },
       {
-        "id": 136,
+        "id": 114,
         "name": "MangalSutra Pandle | मंगलसूत्र का पेंडल",
-        "weight": 0,
+        "weight": 9.27,
         "purity": "22K",
         "images": [
-          "pandle.webp"
+          "ms8.webp",
+          "ms08.webp",
+          "ms008.webp"
+        ],
+        "sub_category": "मंगलसूत्र",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 115,
+        "name": "MangalSutra Pandle | मंगलसूत्र का पेंडल",
+        "weight": 7.78,
+        "purity": "22K",
+        "images": [
+          "ms9.webp",
+          "ms09.webp",
+          "ms009.webp"
+        ],
+        "sub_category": "मंगलसूत्र",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 116,
+        "name": "MangalSutra Pandle | मंगलसूत्र का पेंडल",
+        "weight": 12.5,
+        "purity": "22K",
+        "images": [
+          "ms10.webp",
+          "ms010.webp",
+          "ms0010.webp"
+        ],
+        "sub_category": "मंगलसूत्र",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 136,
+        "name": "MangalSutra Pandle | मंगलसूत्र का पेंडल",
+        "weight": 12.33,
+        "purity": "22K",
+        "images": [
+          "ms1.webp",
+          "ms01.webp",
+          "ms001.webp"
         ],
         "sub_category": "मंगलसूत्र",
         "highlights": [],
@@ -1055,10 +1033,12 @@
       {
         "id": 137,
         "name": "MangalSutra Pandle | मंगलसूत्र का पेंडल",
-        "weight": 0,
+        "weight": 6.22,
         "purity": "22K",
         "images": [
-          "pandle1.webp"
+          "ms2.webp",
+          "ms02.webp",
+          "ms002.webp"
         ],
         "sub_category": "मंगलसूत्र",
         "highlights": [],
@@ -1067,10 +1047,12 @@
       {
         "id": 138,
         "name": "MangalSutra Pandle | मंगलसूत्र का पेंडल",
-        "weight": 0,
+        "weight": 10.27,
         "purity": "22K",
         "images": [
-          "pandle2.webp"
+          "ms3.webp",
+          "ms03.webp",
+          "ms003.webp"
         ],
         "sub_category": "मंगलसूत्र",
         "highlights": [],
@@ -1079,10 +1061,12 @@
       {
         "id": 139,
         "name": "MangalSutra Pandle | मंगलसूत्र का पेंडल",
-        "weight": 0,
+        "weight": 8.77,
         "purity": "22K",
         "images": [
-          "pandle3.webp"
+          "ms4.webp",
+          "ms04.webp",
+          "ms004.webp"
         ],
         "sub_category": "मंगलसूत्र",
         "highlights": [],
@@ -1091,10 +1075,12 @@
       {
         "id": 140,
         "name": "MangalSutra Pandle | मंगलसूत्र का पेंडल",
-        "weight": 0,
+        "weight": 12.5,
         "purity": "22K",
         "images": [
-          "pandle4.webp"
+          "ms5.webp",
+          "ms05.webp",
+          "ms005.webp"
         ],
         "sub_category": "मंगलसूत्र",
         "highlights": [],
@@ -1103,10 +1089,12 @@
       {
         "id": 141,
         "name": "MangalSutra Pandle | मंगलसूत्र का पेंडल",
-        "weight": 0,
+        "weight": 10.6,
         "purity": "22K",
         "images": [
-          "pandle5.webp"
+          "ms6.webp",
+          "ms06.webp",
+          "ms006.webp"
         ],
         "sub_category": "मंगलसूत्र",
         "highlights": [],
@@ -1115,10 +1103,12 @@
       {
         "id": 142,
         "name": "MangalSutra Pandle | मंगलसूत्र का पेंडल",
-        "weight": 0,
+        "weight": 10.14,
         "purity": "22K",
         "images": [
-          "pandle6.webp"
+          "ms7.webp",
+          "ms07.webp",
+          "ms007.webp"
         ],
         "sub_category": "मंगलसूत्र",
         "highlights": [],
@@ -1424,7 +1414,7 @@
       {
         "id": 95,
         "name": "Ladies Ring 916",
-        "weight": 0,
+        "weight": 2.44,
         "purity": "22K",
         "images": [
           "lr1.webp"
@@ -1436,7 +1426,7 @@
       {
         "id": 96,
         "name": "Ladies Ring 916",
-        "weight": 0,
+        "weight": 1.182,
         "purity": "22K",
         "images": [
           "lr2.webp"
@@ -1448,7 +1438,7 @@
       {
         "id": 97,
         "name": "Ladies Ring 916",
-        "weight": 0,
+        "weight": 2.25,
         "purity": "22K",
         "images": [
           "lr3.webp"
@@ -1460,7 +1450,7 @@
       {
         "id": 98,
         "name": "Ladies Ring 916",
-        "weight": 0,
+        "weight": 3.01,
         "purity": "22K",
         "images": [
           "lr4.webp"
@@ -1472,7 +1462,7 @@
       {
         "id": 99,
         "name": "Ladies Ring 916",
-        "weight": 0,
+        "weight": 3.58,
         "purity": "22K",
         "images": [
           "lr5.webp"
@@ -1484,7 +1474,7 @@
       {
         "id": 100,
         "name": "Ladies Ring 916",
-        "weight": 0,
+        "weight": 2.46,
         "purity": "22K",
         "images": [
           "lr6.webp"
@@ -1496,7 +1486,7 @@
       {
         "id": 101,
         "name": "Ladies Ring 916",
-        "weight": 0,
+        "weight": 1.78,
         "purity": "22K",
         "images": [
           "lr7.webp"
@@ -1508,7 +1498,7 @@
       {
         "id": 102,
         "name": "Ladies Ring 916",
-        "weight": 0,
+        "weight": 2.55,
         "purity": "22K",
         "images": [
           "lr8.webp"
@@ -1518,12 +1508,180 @@
         "newArrival": false
       },
       {
-        "id": 103,
+        "id": 143,
         "name": "Ladies Ring 916",
-        "weight": 0,
+        "weight": 1.65,
         "purity": "22K",
         "images": [
-          "lr9.webp"
+          "lr10.webp"
+        ],
+        "sub_category": "गोल्ड लेडीज रिंग",
+        "highlights": [],
+        "newArrival": true
+      },
+      {
+        "id": 144,
+        "name": "Ladies Ring 916",
+        "weight": 1.188,
+        "purity": "22K",
+        "images": [
+          "lr11.webp"
+        ],
+        "sub_category": "गोल्ड लेडीज रिंग",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 145,
+        "name": "Ladies Ring 916",
+        "weight": 1.86,
+        "purity": "22K",
+        "images": [
+          "lr13.webp"
+        ],
+        "sub_category": "गोल्ड लेडीज रिंग",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 146,
+        "name": "Ladies Ring 916",
+        "weight": 3,
+        "purity": "22K",
+        "images": [
+          "lr14.webp"
+        ],
+        "sub_category": "गोल्ड लेडीज रिंग",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 147,
+        "name": "Ladies Ring 916",
+        "weight": 3.11,
+        "purity": "22K",
+        "images": [
+          "lr15.webp"
+        ],
+        "sub_category": "गोल्ड लेडीज रिंग",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 148,
+        "name": "Ladies Ring 916",
+        "weight": 2.18,
+        "purity": "22K",
+        "images": [
+          "lr16.webp"
+        ],
+        "sub_category": "गोल्ड लेडीज रिंग",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 149,
+        "name": "Ladies Ring 916",
+        "weight": 2.2,
+        "purity": "22K",
+        "images": [
+          "lr17.webp"
+        ],
+        "sub_category": "गोल्ड लेडीज रिंग",
+        "highlights": [],
+        "newArrival": true
+      },
+      {
+        "id": 150,
+        "name": "Ladies Ring 916",
+        "weight": 2.44,
+        "purity": "22K",
+        "images": [
+          "lr18.webp"
+        ],
+        "sub_category": "गोल्ड लेडीज रिंग",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 151,
+        "name": "Ladies Ring 916",
+        "weight": 2.25,
+        "purity": "22K",
+        "images": [
+          "lr19.webp"
+        ],
+        "sub_category": "गोल्ड लेडीज रिंग",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 152,
+        "name": "Ladies Ring 916",
+        "weight": 2.42,
+        "purity": "22K",
+        "images": [
+          "lr20.webp"
+        ],
+        "sub_category": "गोल्ड लेडीज रिंग",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 153,
+        "name": "Ladies Ring 916",
+        "weight": 1.69,
+        "purity": "22K",
+        "images": [
+          "lr21.webp"
+        ],
+        "sub_category": "गोल्ड लेडीज रिंग",
+        "highlights": [],
+        "newArrival": true
+      },
+      {
+        "id": 154,
+        "name": "Ladies Ring 916",
+        "weight": 1.62,
+        "purity": "22K",
+        "images": [
+          "lr22.webp"
+        ],
+        "sub_category": "गोल्ड लेडीज रिंग",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 155,
+        "name": "Ladies Ring 916",
+        "weight": 2.71,
+        "purity": "22K",
+        "images": [
+          "lr23.webp"
+        ],
+        "sub_category": "गोल्ड लेडीज रिंग",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 156,
+        "name": "Ladies Ring 916",
+        "weight": 3.76,
+        "purity": "22K",
+        "images": [
+          "lr24.webp"
+        ],
+        "sub_category": "गोल्ड लेडीज रिंग",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
+        "id": 157,
+        "name": "Ladies Ring 916",
+        "weight": 4.34,
+        "purity": "22K",
+        "images": [
+          "lr25.webp"
         ],
         "sub_category": "गोल्ड लेडीज रिंग",
         "highlights": [],
