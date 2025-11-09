@@ -494,7 +494,8 @@
         "purity": "22K",
         "images": [
           "Gchain1.webp",
-          "chain01.webp"
+          "Gchain01.webp",
+          "Gchain01.webp"
         ],
         "sub_category": "सोने की चैन",
         "highlights": [
@@ -606,7 +607,7 @@
         "weight": 13.46,
         "purity": "22K",
         "images": [
-          "chain9.webp"
+          "Gchain9.webp"
         ],
         "sub_category": "सोने की चैन",
         "highlights": [
@@ -620,7 +621,7 @@
         "weight": 22.02,
         "purity": "22K",
         "images": [
-          "chain10.webp"
+          "Gchain10.webp"
         ],
         "sub_category": "सोने की चैन",
         "highlights": [
@@ -634,7 +635,7 @@
         "weight": 11.78,
         "purity": "22K",
         "images": [
-          "chain11.webp"
+          "Gchain11.webp"
         ],
         "sub_category": "सोने की चैन",
         "highlights": [
@@ -648,7 +649,7 @@
         "weight": 11.89,
         "purity": "22K",
         "images": [
-          "chain13.webp"
+          "Gchain13.webp"
         ],
         "sub_category": "सोने की चैन",
         "highlights": [
@@ -662,7 +663,7 @@
         "weight": 24.66,
         "purity": "22K",
         "images": [
-          "chain14.webp"
+          "Gchain14.webp"
         ],
         "sub_category": "सोने की चैन",
         "highlights": [
@@ -836,7 +837,7 @@
         ],
         "sub_category": "सोने की चैन",
         "highlights": [],
-        "newArrival": false
+        "newArrival": true
       },
       {
         "id": 170,
@@ -906,7 +907,7 @@
         ],
         "sub_category": "सोने की चैन",
         "highlights": [],
-        "newArrival": false
+        "newArrival": true
       },
       {
         "id": 175,
@@ -1090,7 +1091,7 @@
         ],
         "sub_category": "सोने का हार",
         "highlights": [],
-        "newArrival": false
+        "newArrival": true
       },
       {
         "id": 124,
@@ -1402,7 +1403,7 @@
         ],
         "sub_category": "मंगलसूत्र",
         "highlights": [],
-        "newArrival": false
+        "newArrival": true
       },
       {
         "id": 137,
@@ -1458,7 +1459,7 @@
         ],
         "sub_category": "मंगलसूत्र",
         "highlights": [],
-        "newArrival": false
+        "newArrival": true
       },
       {
         "id": 141,
@@ -1576,7 +1577,7 @@
         ],
         "sub_category": "चांदी की चैन",
         "highlights": [],
-        "newArrival": false
+        "newArrival": true
       }
     ],
     "सोने के टॉप्स": [
@@ -2469,7 +2470,7 @@
         "highlights": [
           "यह 22 कैरेट 916 हॉलमार्क सोने का एक शानदार बाजूबंद है। इसमें खूबसूरत डिज़ाइन और सूक्ष्म विवरण हैं, जो इसे पारंपरिक परिधानों के लिए एक आदर्श आभूषण बनाते हैं। इसकी सुनहरी चमक और मीनाकारी इसे बेहद आकर्षक बनाती है।"
         ],
-        "newArrival": false
+        "newArrival": true
       },
       {
         "id": 73,
@@ -2501,7 +2502,7 @@
         "highlights": [
           "यह एक खूबसूरत सोने का बाजूबंद है, जिस पर बारीक कारीगरी की गई है। इसमें बीच में एक फूल का डिज़ाइन है और किनारों पर भी छोटे फूल बने हुए हैं। नीचे की तरफ छोटी-छोटी लटकनें और मोतियों जैसी सजावट है, जो इसकी सुंदरता को बढ़ाती है। यह पारंपरिक भारतीय पोशाक के साथ बहुत अच्छा लगेगा।"
         ],
-        "newArrival": false
+        "newArrival": true
       },
       {
         "id": 75,
