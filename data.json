@@ -2,9 +2,8 @@
   "ticker": [
     "सोने के भाव के साथ होलसेल रेट में रिटेल ज्वेलरी आपके लिए..",
     "HUID हॉलमार्क प्रमाणित ज्वेलरी मिलने का स्थान",
-    "अब आप भी 24K गोल्ड एवं सिल्वर बार खरीद कर बढ़ते भावो का फायदा उठाकर बेच सकते है हमारे साथ.",
-    "*बुकिंग का समय दोपहर 1 बजे से शाम 6 बजे तक (मंगलवार से शनिवार)",
-    "Disclaimer* :- *Rates are for reference purpose only, rates may sometimes vary due to high volatility in the market."
+    "अब आप भी 24K गोल्ड एवं सिल्वर बार खरीद कर बढ़ते भावो का फायदा उठाकर बेच सकते है हमारे साथ. *बुकिंग का समय दोपहर 1 बजे से शाम 6 बजे तक (मंगलवार से शनिवार)",
+    "Disclaimer* :- *Rates are for reference purpose only, rates may sometimes vary due to high volatility in the market. Actual product design may vary slightly from the images shown."
   ],
   "sub_categories": [
     "गोल्ड कॉइन और बार",
@@ -13,21 +12,19 @@
     "चांदी का कन्दोरा",
     "चांदी की चैन",
     "चांदी की पायल",
-    "चांदी की बिछिया",
     "चांदी के अन्य आभूषण",
     "पाट की चांदी के कड़े",
     "मंगलसूत्र",
     "सांवरिया सेठ रिंग",
     "सिल्वर बार कॉइन",
     "सोने का हार",
-    "सोने की चूड़ी",
     "सोने की चैन",
     "सोने के आभूषण",
     "सोने के टॉप्स",
     "सोने के राजपूतानी आभूषण"
   ],
   "categorizedProducts": {
-    "सोने की चूड़ी": [
+    "सोने के आभूषण": [
       {
         "id": 1,
         "name": "Gold bangles | सोने की चूड़ी",
@@ -36,9 +33,51 @@
         "images": [
           "IMG_20251003_062007.webp"
         ],
-        "sub_category": "सोने की चूड़ी",
+        "sub_category": "सोने के आभूषण",
         "highlights": [
           "22 CARAT 916 HUID हालमार्क ज्वेलरी"
+        ],
+        "newArrival": true
+      },
+      {
+        "id": 53,
+        "name": "Rakhdi रखडी",
+        "weight": 0.38,
+        "purity": "22K",
+        "images": [
+          "IMG_20251003_150302.webp"
+        ],
+        "sub_category": "सोने के आभूषण",
+        "highlights": [
+          "यह सोने में बहुमूल्य पत्थरों को जड़कर बनाई गई एक महंगी और पारंपरिक रखड़ी  है, जो कलाकारी और शुद्धता का बेजोड़ नमूना है।"
+        ],
+        "newArrival": true
+      },
+      {
+        "id": 54,
+        "name": "Bali 916 | सोने की बाली",
+        "weight": 3.2,
+        "purity": "22K",
+        "images": [
+          "1759572976749.webp"
+        ],
+        "sub_category": "सोने के आभूषण",
+        "highlights": [
+          "यह 916 शुद्धता वाली एक पारंपरिक सोने की बाली है, जिस पर बारीक नक्काशी की गई है और इसके नीचे छोटी झुमकी जैसी लटकनें लगी हुई हैं, जो इसे एक क्लासी और एथनिक लुक देती हैं।"
+        ],
+        "newArrival": true
+      },
+      {
+        "id": 58,
+        "name": "Tika | सोने का मांग टिका",
+        "weight": 4.05,
+        "purity": "22K",
+        "images": [
+          "IMG_20251004_174038.webp"
+        ],
+        "sub_category": "सोने के आभूषण",
+        "highlights": [
+          "यह 916 (22 कैरेट) शुद्धता वाला सोने का माँग टीका है, जिसमें लाल रत्न जड़े फूल और आकर्षक चेन का डिज़ाइन है, जो किसी भी शुभ अवसर के लिए एकदम सही है।"
         ],
         "newArrival": false
       }
@@ -299,6 +338,46 @@
         "newArrival": false
       },
       {
+        "id": 34,
+        "name": "Bichiya | बिछिया",
+        "weight": 15,
+        "purity": "चाँदी जेवर",
+        "images": [
+          "1759558073715.webp"
+        ],
+        "sub_category": "चांदी के अन्य आभूषण",
+        "highlights": [
+          "New Design toe ring"
+        ],
+        "newArrival": true
+      },
+      {
+        "id": 35,
+        "name": "Bichiya | बिछिया",
+        "weight": 12,
+        "purity": "चाँदी जेवर",
+        "images": [
+          "1759561918137.webp"
+        ],
+        "sub_category": "चांदी के अन्य आभूषण",
+        "highlights": [
+          "New Design toe ring"
+        ],
+        "newArrival": true
+      },
+      {
+        "id": 36,
+        "name": "Angutha Bichiya Seth | अंगूठा बिछिया सेट",
+        "weight": 30,
+        "purity": "चाँदी जेवर",
+        "images": [
+          "IMG_20251004_144333.webp"
+        ],
+        "sub_category": "चांदी के अन्य आभूषण",
+        "highlights": [],
+        "newArrival": false
+      },
+      {
         "id": 37,
         "name": "Silver girls ring | गर्ल्स रिंग",
         "weight": 3,
@@ -416,6 +495,22 @@
         "newArrival": false
       },
       {
+        "id": 55,
+        "name": "Bracelet Silver | चांदी की पोची",
+        "weight": 17,
+        "purity": "चाँदी जेवर",
+        "images": [
+          "1759583272160.webp",
+          "1759583278777.webp",
+          "1759583361107.webp"
+        ],
+        "sub_category": "चांदी के अन्य आभूषण",
+        "highlights": [
+          "यह लड़कियों के लिए एक बहुत ही सुंदर और ट्रेंडी चांदी का ब्रेसलेट है।"
+        ],
+        "newArrival": false
+      },
+      {
         "id": 66,
         "name": "Silver Glass | चांदी की ग्लास",
         "weight": 80,
@@ -458,6 +553,20 @@
           "916 हॉलमार्क वाली जेंट्स चेन 22 कैरेट सोने की बनी एक मज़बूत और स्टाइलिश चेन होती है, जो अपनी उच्च शुद्धता और आकर्षक डिज़ाइनों के कारण पुरुषों में बहुत लोकप्रिय है।"
         ],
         "newArrival": true
+      },
+      {
+        "id": 56,
+        "name": "Gold Chain For Kids | बच्चे की सोने की चैन",
+        "weight": 5.5,
+        "purity": "22K",
+        "images": [
+          "WhatsApp03.webp"
+        ],
+        "sub_category": "सोने की चैन",
+        "highlights": [
+          "22CARAT 916 HUID हालमार्क ज्वेलरी"
+        ],
+        "newArrival": false
       },
       {
         "id": 67,
@@ -2283,48 +2392,6 @@
         "newArrival": false
       }
     ],
-    "चांदी की बिछिया": [
-      {
-        "id": 34,
-        "name": "Bichiya | बिछिया",
-        "weight": 15,
-        "purity": "चाँदी जेवर",
-        "images": [
-          "1759558073715.webp"
-        ],
-        "sub_category": "चांदी की बिछिया",
-        "highlights": [
-          "New Design toe ring"
-        ],
-        "newArrival": true
-      },
-      {
-        "id": 35,
-        "name": "Bichiya | बिछिया",
-        "weight": 12,
-        "purity": "चाँदी जेवर",
-        "images": [
-          "1759561918137.webp"
-        ],
-        "sub_category": "चांदी की बिछिया",
-        "highlights": [
-          "New Design toe ring"
-        ],
-        "newArrival": true
-      },
-      {
-        "id": 36,
-        "name": "Angutha Bichiya Seth | अंगूठा बिछिया सेट",
-        "weight": 30,
-        "purity": "चाँदी जेवर",
-        "images": [
-          "IMG_20251004_144333.webp"
-        ],
-        "sub_category": "चांदी की बिछिया",
-        "highlights": [],
-        "newArrival": false
-      }
-    ],
     "चांदी का कन्दोरा": [
       {
         "id": 42,
@@ -2361,80 +2428,6 @@
         "sub_category": "चांदी का कन्दोरा",
         "highlights": [
           "यह मीनाकारी और घुंघरू वाला एक पारंपरिक चांदी का कंदोरा है, जिसमें बारीक कारीगरी और रंगीन डिज़ाइन का प्रयोग किया गया है।"
-        ],
-        "newArrival": false
-      }
-    ],
-    "सोने के आभूषण": [
-      {
-        "id": 53,
-        "name": "Rakhdi रखडी",
-        "weight": 0.38,
-        "purity": "22K",
-        "images": [
-          "IMG_20251003_150302.webp"
-        ],
-        "sub_category": "सोने के आभूषण",
-        "highlights": [
-          "यह सोने में बहुमूल्य पत्थरों को जड़कर बनाई गई एक महंगी और पारंपरिक रखड़ी  है, जो कलाकारी और शुद्धता का बेजोड़ नमूना है।"
-        ],
-        "newArrival": true
-      },
-      {
-        "id": 54,
-        "name": "Bali 916 | सोने की बाली",
-        "weight": 3.2,
-        "purity": "22K",
-        "images": [
-          "1759572976749.webp"
-        ],
-        "sub_category": "सोने के आभूषण",
-        "highlights": [
-          "यह 916 शुद्धता वाली एक पारंपरिक सोने की बाली है, जिस पर बारीक नक्काशी की गई है और इसके नीचे छोटी झुमकी जैसी लटकनें लगी हुई हैं, जो इसे एक क्लासी और एथनिक लुक देती हैं।"
-        ],
-        "newArrival": true
-      },
-      {
-        "id": 55,
-        "name": "Bracelet Silver | चांदी की पोची",
-        "weight": 17,
-        "purity": "चाँदी जेवर",
-        "images": [
-          "1759583272160.webp",
-          "1759583278777.webp",
-          "1759583361107.webp"
-        ],
-        "sub_category": "सोने के आभूषण",
-        "highlights": [
-          "यह लड़कियों के लिए एक बहुत ही सुंदर और ट्रेंडी चांदी का ब्रेसलेट है।"
-        ],
-        "newArrival": false
-      },
-      {
-        "id": 56,
-        "name": "Gold Chain For Kids | बच्चे की सोने की चैन",
-        "weight": 5.5,
-        "purity": "22K",
-        "images": [
-          "WhatsApp03.webp"
-        ],
-        "sub_category": "सोने के आभूषण",
-        "highlights": [
-          "22CARAT 916 HUID हालमार्क ज्वेलरी"
-        ],
-        "newArrival": false
-      },
-      {
-        "id": 58,
-        "name": "Tika | सोने का मांग टिका",
-        "weight": 4.05,
-        "purity": "22K",
-        "images": [
-          "IMG_20251004_174038.webp"
-        ],
-        "sub_category": "सोने के आभूषण",
-        "highlights": [
-          "यह 916 (22 कैरेट) शुद्धता वाला सोने का माँग टीका है, जिसमें लाल रत्न जड़े फूल और आकर्षक चेन का डिज़ाइन है, जो किसी भी शुभ अवसर के लिए एकदम सही है।"
         ],
         "newArrival": false
       }
