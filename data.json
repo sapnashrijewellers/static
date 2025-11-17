@@ -1,5 +1,6 @@
 {
   "ticker": [
+    "Sapna Shri Jewellers पिछले 35 वर्षों से सोने और चांदी के गहनों के क्षेत्र में अपनी भरोसेमंद सेवा और उच्च गुणवत्ता के लिए जाना जाता है।",
     "सोने के भाव के साथ होलसेल रेट में रिटेल ज्वेलरी आपके लिए..",
     "HUID हॉलमार्क प्रमाणित ज्वेलरी मिलने का स्थान",
     "अब आप भी 24K गोल्ड एवं सिल्वर बार खरीद कर बढ़ते भावो का फायदा उठाकर बेच सकते है हमारे साथ. *बुकिंग का समय दोपहर 1 बजे से शाम 6 बजे तक (मंगलवार से शनिवार)",
@@ -1164,7 +1165,7 @@
       {
         "id": 121,
         "name": "Gold Haar | सोने का हार",
-        "weight": 0,
+        "weight": 15.61,
         "purity": "22K",
         "images": [
           "har5.webp",
@@ -1178,7 +1179,7 @@
       {
         "id": 122,
         "name": "Gold Haar | सोने का हार",
-        "weight": 0,
+        "weight": 12.04,
         "purity": "22K",
         "images": [
           "har1.webp",
@@ -1192,7 +1193,7 @@
       {
         "id": 123,
         "name": "Gold Haar | सोने का हार",
-        "weight": 0,
+        "weight": 10.13,
         "purity": "22K",
         "images": [
           "har2.webp",
@@ -1200,13 +1201,15 @@
           "har002.webp"
         ],
         "sub_category": "सोने का हार",
-        "highlights": [],
+        "highlights": [
+          "यह 22 कैरेट 916 हॉलमार्क वाली ज्वेलरी एक सुंदर सेट है जिसमें एक हार और मैचिंग इयररिंग्स शामिल हैं। हार में एक गोलाकार पेंडेंट है जिसमें बारीक डिज़ाइन और काम किया गया है, जो पारंपरिक भारतीय शिल्प कौशल को दर्शाता है। यह पेंडेंट मनके जैसी सोने की श्रृंखला से जुड़ा हुआ है। इयररिंग्स भी हार के डिज़ाइन से मेल खाते हुए छोटे और सुरुचिपूर्ण हैं। यह सेट किसी भी विशेष अवसर के लिए एकदम सही है।"
+        ],
         "newArrival": true
       },
       {
         "id": 124,
         "name": "Gold Haar | सोने का हार",
-        "weight": 0,
+        "weight": 20.7,
         "purity": "22K",
         "images": [
           "har3.webp",
@@ -1220,7 +1223,7 @@
       {
         "id": 125,
         "name": "Gold Haar | सोने का हार",
-        "weight": 0,
+        "weight": 20.25,
         "purity": "22K",
         "images": [
           "har4.webp",
@@ -1604,10 +1607,12 @@
       {
         "id": 18,
         "name": "Silver Chain | चांदी की चैन",
-        "weight": 40,
+        "weight": 35.1,
         "purity": "चाँदी जेवर",
         "images": [
-          "1759561622409.webp"
+          "SC1.webp",
+          "SC.1.webp",
+          "SC001.webp"
         ],
         "sub_category": "चांदी की चैन",
         "highlights": [
@@ -1618,10 +1623,12 @@
       {
         "id": 19,
         "name": "Silver Chain | चांदी की चैन",
-        "weight": 59,
+        "weight": 33.72,
         "purity": "चाँदी जेवर",
         "images": [
-          "1759561773928.webp"
+          "SC2.webp",
+          "SC02.webp",
+          "SC002.webp"
         ],
         "sub_category": "चांदी की चैन",
         "highlights": [
@@ -1632,10 +1639,11 @@
       {
         "id": 126,
         "name": "Silver Chain | चांदी की चैन",
-        "weight": 0,
+        "weight": 3.2,
         "purity": "चाँदी जेवर",
         "images": [
-          "silverchain.webp"
+          "SC3.webp",
+          "SC03.webp"
         ],
         "sub_category": "चांदी की चैन",
         "highlights": [],
@@ -1644,10 +1652,12 @@
       {
         "id": 127,
         "name": "Silver Chain | चांदी की चैन",
-        "weight": 0,
+        "weight": 2.24,
         "purity": "चाँदी जेवर",
         "images": [
-          "silverchain1.webp"
+          "SC4.webp",
+          "SC04.webp",
+          "SC004.webp"
         ],
         "sub_category": "चांदी की चैन",
         "highlights": [],
@@ -1656,10 +1666,12 @@
       {
         "id": 128,
         "name": "Silver Chain | चांदी की चैन",
-        "weight": 0,
+        "weight": 3.4,
         "purity": "चाँदी जेवर",
         "images": [
-          "silverchain2.webp"
+          "SC5.webp",
+          "SC05.webp",
+          "SC005.webp"
         ],
         "sub_category": "चांदी की चैन",
         "highlights": [],
@@ -1668,10 +1680,12 @@
       {
         "id": 129,
         "name": "Silver Chain | चांदी की चैन",
-        "weight": 0,
+        "weight": 59.7,
         "purity": "चाँदी जेवर",
         "images": [
-          "silverchain3.webp"
+          "SC6.webp",
+          "SC06.webp",
+          "SC006.webp"
         ],
         "sub_category": "चांदी की चैन",
         "highlights": [],
@@ -1680,14 +1694,30 @@
       {
         "id": 130,
         "name": "Silver Chain | चांदी की चैन",
-        "weight": 0,
+        "weight": 41.3,
         "purity": "चाँदी जेवर",
         "images": [
-          "silverchain4.webp"
+          "SC7.webp",
+          "SC07.webp",
+          "SC007.webp"
         ],
         "sub_category": "चांदी की चैन",
         "highlights": [],
         "newArrival": true
+      },
+      {
+        "id": 184,
+        "name": "Silver Chain | चांदी की चैन",
+        "weight": 26.22,
+        "purity": "चाँदी जेवर",
+        "images": [
+          "SC8.webp",
+          "SC08.webp",
+          "SC008.webp"
+        ],
+        "sub_category": "चांदी की चैन",
+        "highlights": [],
+        "newArrival": false
       }
     ],
     "सोने के टॉप्स": [
@@ -1886,7 +1916,7 @@
       },
       {
         "id": 94,
-        "name": "Ladies Ring 916",
+        "name": "Ladies Ring | लेडीज रिंग",
         "weight": 3.25,
         "purity": "22K",
         "images": [
@@ -1898,7 +1928,7 @@
       },
       {
         "id": 95,
-        "name": "Ladies Ring 916",
+        "name": "Ladies Ring",
         "weight": 2.44,
         "purity": "22K",
         "images": [
@@ -1912,7 +1942,7 @@
       },
       {
         "id": 96,
-        "name": "Ladies Ring 916",
+        "name": "Ladies Ring",
         "weight": 1.182,
         "purity": "22K",
         "images": [
@@ -1926,7 +1956,7 @@
       },
       {
         "id": 97,
-        "name": "Ladies Ring 916",
+        "name": "Ladies Ring | लेडीज रिंग",
         "weight": 2.25,
         "purity": "22K",
         "images": [
@@ -1940,7 +1970,7 @@
       },
       {
         "id": 98,
-        "name": "Ladies Ring 916",
+        "name": "Ladies Ring",
         "weight": 3.01,
         "purity": "22K",
         "images": [
@@ -1954,7 +1984,7 @@
       },
       {
         "id": 99,
-        "name": "Ladies Ring 916",
+        "name": "Ladies Ring",
         "weight": 3.58,
         "purity": "22K",
         "images": [
@@ -1968,7 +1998,7 @@
       },
       {
         "id": 100,
-        "name": "Ladies Ring 916",
+        "name": "Ladies Ring | लेडीज रिंग",
         "weight": 2.46,
         "purity": "22K",
         "images": [
@@ -1982,7 +2012,7 @@
       },
       {
         "id": 101,
-        "name": "Ladies Ring 916",
+        "name": "Ladies Ring | लेडीज रिंग",
         "weight": 1.78,
         "purity": "22K",
         "images": [
@@ -1996,7 +2026,7 @@
       },
       {
         "id": 102,
-        "name": "Ladies Ring 916",
+        "name": "Ladies Ring | लेडीज रिंग",
         "weight": 2.55,
         "purity": "22K",
         "images": [
@@ -2010,7 +2040,7 @@
       },
       {
         "id": 103,
-        "name": "Ladies Ring 916",
+        "name": "Ladies Ring | लेडीज रिंग",
         "weight": 1.69,
         "purity": "22K",
         "images": [
@@ -2024,7 +2054,7 @@
       },
       {
         "id": 117,
-        "name": "Ladies Ring 916",
+        "name": "Ladies Ring | लेडीज रिंग",
         "weight": 3.76,
         "purity": "22K",
         "images": [
@@ -2038,7 +2068,7 @@
       },
       {
         "id": 118,
-        "name": "Ladies Ring 916",
+        "name": "Ladies Ring | लेडीज रिंग",
         "weight": 4.88,
         "purity": "22K",
         "images": [
@@ -2052,7 +2082,7 @@
       },
       {
         "id": 119,
-        "name": "Ladies Ring 916",
+        "name": "Ladies Ring | लेडीज रिंग",
         "weight": 3.35,
         "purity": "22K",
         "images": [
@@ -2066,7 +2096,7 @@
       },
       {
         "id": 120,
-        "name": "Ladies Ring 916",
+        "name": "Ladies Ring | लेडीज रिंग",
         "weight": 2.4,
         "purity": "22K",
         "images": [
@@ -2080,7 +2110,7 @@
       },
       {
         "id": 143,
-        "name": "Ladies Ring 916",
+        "name": "Ladies Ring | लेडीज रिंग",
         "weight": 1.65,
         "purity": "22K",
         "images": [
@@ -2094,7 +2124,7 @@
       },
       {
         "id": 144,
-        "name": "Ladies Ring 916",
+        "name": "Ladies Ring",
         "weight": 1.188,
         "purity": "22K",
         "images": [
@@ -2108,7 +2138,7 @@
       },
       {
         "id": 145,
-        "name": "Ladies Ring 916",
+        "name": "Ladies Ring",
         "weight": 1.86,
         "purity": "22K",
         "images": [
@@ -2122,7 +2152,7 @@
       },
       {
         "id": 146,
-        "name": "Ladies Ring 916",
+        "name": "Ladies Ring | लेडीज रिंग",
         "weight": 3,
         "purity": "22K",
         "images": [
@@ -2136,7 +2166,7 @@
       },
       {
         "id": 147,
-        "name": "Ladies Ring 916",
+        "name": "Ladies Ring",
         "weight": 3.11,
         "purity": "22K",
         "images": [
@@ -2150,7 +2180,7 @@
       },
       {
         "id": 148,
-        "name": "Ladies Ring 916",
+        "name": "Ladies Ring",
         "weight": 2.18,
         "purity": "22K",
         "images": [
@@ -2164,7 +2194,7 @@
       },
       {
         "id": 149,
-        "name": "Ladies Ring 916",
+        "name": "Ladies Ring | लेडीज रिंग",
         "weight": 2.2,
         "purity": "22K",
         "images": [
@@ -2178,7 +2208,7 @@
       },
       {
         "id": 150,
-        "name": "Ladies Ring 916",
+        "name": "Ladies Ring",
         "weight": 2.44,
         "purity": "22K",
         "images": [
@@ -2192,7 +2222,7 @@
       },
       {
         "id": 151,
-        "name": "Ladies Ring 916",
+        "name": "Ladies Ring | लेडीज रिंग",
         "weight": 2.25,
         "purity": "22K",
         "images": [
@@ -2206,7 +2236,7 @@
       },
       {
         "id": 152,
-        "name": "Ladies Ring 916",
+        "name": "Ladies Ring | लेडीज रिंग",
         "weight": 2.42,
         "purity": "22K",
         "images": [
@@ -2220,7 +2250,7 @@
       },
       {
         "id": 153,
-        "name": "Ladies Ring 916",
+        "name": "Ladies Ring",
         "weight": 1.69,
         "purity": "22K",
         "images": [
@@ -2234,7 +2264,7 @@
       },
       {
         "id": 154,
-        "name": "Ladies Ring 916",
+        "name": "Ladies Ring",
         "weight": 1.62,
         "purity": "22K",
         "images": [
@@ -2248,7 +2278,7 @@
       },
       {
         "id": 155,
-        "name": "Ladies Ring 916",
+        "name": "Ladies Ring | लेडीज रिंग",
         "weight": 2.71,
         "purity": "22K",
         "images": [
@@ -2262,7 +2292,7 @@
       },
       {
         "id": 156,
-        "name": "Ladies Ring 916",
+        "name": "Ladies Ring",
         "weight": 3.76,
         "purity": "22K",
         "images": [
@@ -2276,7 +2306,7 @@
       },
       {
         "id": 157,
-        "name": "Ladies Ring 916",
+        "name": "Ladies Ring | लेडीज रिंग",
         "weight": 4.34,
         "purity": "22K",
         "images": [
@@ -2335,10 +2365,13 @@
       {
         "id": 131,
         "name": "Fancy Dulhan Payal | फैंसी दुल्हन पायल",
-        "weight": 0,
+        "weight": 135,
         "purity": "चाँदी जेवर",
         "images": [
-          "payal.webp"
+          "payal1.webp",
+          "payal01.webp",
+          "payal001.webp",
+          "payal0001.webp"
         ],
         "sub_category": "चांदी की पायल",
         "highlights": [],
@@ -2347,10 +2380,12 @@
       {
         "id": 132,
         "name": "Fancy Dulhan Payal | फैंसी दुल्हन पायल",
-        "weight": 0,
+        "weight": 102,
         "purity": "चाँदी जेवर",
         "images": [
-          "payal1.webp"
+          "payal2.webp",
+          "payal02.webp",
+          "payal002.webp"
         ],
         "sub_category": "चांदी की पायल",
         "highlights": [],
@@ -2359,10 +2394,13 @@
       {
         "id": 133,
         "name": "Fancy Dulhan Payal | फैंसी दुल्हन पायल",
-        "weight": 0,
+        "weight": 175,
         "purity": "चाँदी जेवर",
         "images": [
-          "payal2.webp"
+          "payal3.webp",
+          "payal03.webp",
+          "payal003.webp",
+          "payal0003.webp"
         ],
         "sub_category": "चांदी की पायल",
         "highlights": [],
@@ -2371,10 +2409,11 @@
       {
         "id": 134,
         "name": "Fancy Dulhan Payal | फैंसी दुल्हन पायल",
-        "weight": 0,
+        "weight": 100,
         "purity": "चाँदी जेवर",
         "images": [
-          "payal3.webp"
+          "payal4.webp",
+          "payal04.webp"
         ],
         "sub_category": "चांदी की पायल",
         "highlights": [],
@@ -2383,10 +2422,11 @@
       {
         "id": 135,
         "name": "Fancy Dulhan Payal | फैंसी दुल्हन पायल",
-        "weight": 0,
+        "weight": 95,
         "purity": "चाँदी जेवर",
         "images": [
-          "payal4.webp"
+          "payal05.webp",
+          "payal005.webp"
         ],
         "sub_category": "चांदी की पायल",
         "highlights": [],
