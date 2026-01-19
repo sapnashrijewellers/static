@@ -1,7 +1,7 @@
 @echo off
 echo Starting deployment process...
 
-node Script/optimize-image.js && ^
+REM node Scripts\optimize_images.js && ^
 git add . && ^
 git commit -m "adding new products" && ^
 git push origin main
