@@ -1,0 +1,2 @@
+# static
+repo for imges
