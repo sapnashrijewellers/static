@@ -1,0 +1,6 @@
+git checkout --orphan fresh-main
+git add .
+git commit -m "Current optimized images"
+git branch -D main
+git branch -m main
+git push --force origin main

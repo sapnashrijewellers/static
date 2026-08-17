@@ -79,7 +79,8 @@ async function optimizeImage(inputPath, filename, trackerSet) {
     const ext = path.extname(filename).toLowerCase();
     if (ext === ".webp") return;
 
-    const baseName = path.parse(filename).name;
+    let baseName = path.parse(filename).name;
+    baseName = generateImageSlug(baseName);
     const outputPath = path.join(OPTIMIZED_IMG_DIR, `${baseName}.webp`);
 
     try {
@@ -101,6 +102,17 @@ async function optimizeImage(inputPath, filename, trackerSet) {
     } catch (error) {
         console.error(`❌ Failed to optimize ${filename}:`, error.message);
     }
+}
+
+function generateImageSlug(name) {
+  const slug = String(name)
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "") // Remove accents
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")      // Everything else → hyphen
+    .replace(/^-+|-+$/g, "");         // Remove leading/trailing hyphens
+
+  return `${slug}`;
 }
 
 /**
