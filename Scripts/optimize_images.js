@@ -119,7 +119,8 @@ function generateImageSlug(name) {
  * Create a 400x400 thumbnail maintaining aspect ratio.
  */
 async function createThumbnail(inputPath, filename) {
-  const baseName = path.parse(filename).name;
+  let baseName = path.parse(filename).name;
+  baseName = generateImageSlug(baseName);
   const thumbPath = path.join(THUMBNAIL_DIR, `${baseName}.webp`);
 
   try {
