@@ -1,0 +1,27 @@
+Commercial advertising hero banner for a luxury Indian jewellery brand named "Sapna Shri Jewellers".
+
+[PRODUCT FOCUS]: 
+
+Sawariya Seth Ring | सांवरिया सेठ रिंग
+A devotional masterpiece symbolizing faith and protection—crafted with purity, devotion, and spiritual elegance.
+
+highlights
+- brand "Sapna Shri Jewellers" in big fonts (h1). Brand logo is attched
+- Quality of product like with some icons:   - Made with 925 silver- 
+- retiain text from existing banner
+
+[MOOD & LIGHTING]: High-end editorial studio lighting, soft golden hour reflections, warm ambient glow, hyper-realistic reflections on precious metals and polished gemstones. Festive celebration mood of Rakhi
+[BACKGROUND & AESTHETIC]: Minimalist silk fabric drapery in neutral champagne/royal emerald tones, subtle Indian architectural arch shadow silhouettes, clean, clutter-free luxury aesthetic.
+[COMPOSITION & SAFE ZONES]: 
+- Subject placement strictly centered with generous 25% negative space on left, right, top, and bottom edges to avoid cropping on responsive viewports.
+- High visual clarity on mobile screens (60-70% user base).
+- Zero text, zero typography, zero logos embedded inside the image.
+
+[TECHNICAL SPECS]:
+- DESKTOP VERSION: Aspect Ratio 21:9 or 3:1, ultra-sharp 4K resolution (2400x800 px equivalent), cinematic panoramic composition.
+- MOBILE VERSION: Aspect Ratio 4:3 or 1:1, close-up product macro shot (1080x810 px equivalent), centered composition.
+- Output format: Clean photography, photorealistic, 8k resolution, ray-tracing quality.
+
+
+
+reference image is attached. generate desktop image based on this information. 

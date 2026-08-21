@@ -3,17 +3,10 @@
 set -uo pipefail
 
 # Auto-detect directory
-if [ -d "./img/banner" ]; then
-    SRC_DIR="./img/banner"
-elif [ -d "./static/img/banner" ]; then
-    SRC_DIR="./static/img/banner"
-elif [ -d "./public/static/img/banner" ]; then
-    SRC_DIR="./public/static/img/banner"
-else
-    SRC_DIR="${1:-.}"
-fi
 
-OUT_DIR="${SRC_DIR}/optimized"
+SRC_DIR="./img/banner/original/"
+OUT_DIR="${SRC_DIR}/../optimized/"
+
 mkdir -p "$OUT_DIR"
 
 echo "=========================================="
