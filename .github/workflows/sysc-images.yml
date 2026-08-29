@@ -65,7 +65,7 @@ jobs:
       # -------------------------------------------------------
       - name: Optimize product images
         run: |
-          node Scripts/optimize-images.js
+          node Scripts/optimize_images.js
 
       # -------------------------------------------------------
       # 7. Remove original images
