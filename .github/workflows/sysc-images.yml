@@ -1,0 +1,99 @@
+name: Sync Product Images
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-images:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      # -------------------------------------------------------
+      # 1. Checkout latest version only
+      # -------------------------------------------------------
+      - name: Checkout image repository
+        uses: actions/checkout@v4
+        with:
+          ref: master
+          fetch-depth: 1
+
+      # -------------------------------------------------------
+      # 2. Setup Node.js
+      # -------------------------------------------------------
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      # -------------------------------------------------------
+      # 3. Install dependencies
+      # -------------------------------------------------------
+      - name: Install dependencies
+        run: npm ci
+
+      # -------------------------------------------------------
+      # 4. Prepare temporary original image directory
+      # -------------------------------------------------------
+      - name: Prepare original image directory
+        run: |
+          mkdir -p img/products/original
+          rm -rf img/products/original/*
+
+      # -------------------------------------------------------
+      # 5. Download images from Google Drive
+      # -------------------------------------------------------
+      - name: Install gdown
+        run: |
+          python3 -m pip install --upgrade gdown
+
+      - name: Download images from Google Drive
+        env:
+          GOOGLE_DRIVE_FOLDER: ${{ secrets.GOOGLE_DRIVE_FOLDER }}
+        run: |
+          gdown \
+            --folder "$GOOGLE_DRIVE_FOLDER" \
+            --output img/products/original \
+            --remaining-ok
+
+      # -------------------------------------------------------
+      # 6. Optimize images
+      # -------------------------------------------------------
+      - name: Optimize product images
+        run: |
+          node Scripts/optimize-images.js
+
+      # -------------------------------------------------------
+      # 7. Remove original images
+      # -------------------------------------------------------
+      - name: Remove original images
+        run: |
+          rm -rf img/products/original
+
+      # -------------------------------------------------------
+      # 8. Commit changes
+      # -------------------------------------------------------
+      - name: Commit image changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add img/products/optimized img/products/thumbnail
+
+          if git diff --cached --quiet; then
+            echo "No image changes detected."
+            exit 0
+          fi
+
+          git commit -m "Update product images"
+
+      # -------------------------------------------------------
+      # 9. Push to master
+      # -------------------------------------------------------
+      - name: Push changes
+        run: |
+          git push origin master
