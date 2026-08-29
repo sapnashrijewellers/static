@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "optimize-images": "node Scripts/checkImages.js",
+    "verify-images": "node Scripts/checkImages.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

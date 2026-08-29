@@ -61,12 +61,15 @@ jobs:
             
 
       # -------------------------------------------------------
-      # 6. Optimize images
+      # 6. Optimize & Validate images
       # -------------------------------------------------------
       - name: Optimize product images
         run: |
-          node Scripts/optimize_images.js
+          npm run optimize-images
 
+      - name: Verify Missing images
+        run: |
+          npm run verify-images
       # -------------------------------------------------------
       # 7. Remove original images
       # -------------------------------------------------------
