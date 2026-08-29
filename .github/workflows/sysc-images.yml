@@ -58,7 +58,7 @@ jobs:
           gdown \
             --folder "$GOOGLE_DRIVE_FOLDER" \
             --output img/products/original \
-            --remaining-ok
+            
 
       # -------------------------------------------------------
       # 6. Optimize images
