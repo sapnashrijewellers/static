@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "optimize-images": "node Scripts/optimize-images.js",
-    "verify-images":  "node Scripts/fetch-products.js && node Scripts/checkImages.js"
+    "verify-images":  "node Scripts/fetch-products.js && node Scripts/check-images.js"
   },
   "keywords": [],
   "author": "",
