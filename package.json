@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "optimize-images": "node Scripts/checkImages.js",
-    "verify-images": "node Scripts/checkImages.js"
+    "optimize-images": "node Scripts/optimize-images.js",
+    "verify-images":  "node Scripts/fetch-products.js && node Scripts/checkImages.js"
   },
   "keywords": [],
   "author": "",
