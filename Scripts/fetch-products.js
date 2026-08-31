@@ -1,16 +1,18 @@
-// Use the native Node.js modules for file system and path operations
-import { mkdir, writeFile } from 'fs/promises';
-import path from 'path';
+// Use native Node.js modules for file system and path operations
+import { mkdir, writeFile } from "fs/promises";
+import path from "path";
 
 const DATA_FOLDER = "./data";
 const OUTPUT_FILE = path.join(DATA_FOLDER, "products.json");
 
-// The URL of your Google Apps Script Web App
+// Google Apps Script Web App
 const API_URL =
-    "https://script.google.com/macros/s/AKfycbwNQ9fFmV0MqVEKg6pk-x56FsCw-xOnV__A3l6hqrlUVukKyx6gf31DpiO4hn4Vep6U5w/exec";
+    "https://script.google.com/macros/s/AKfycbwNQ9fFmV0MqVEKg6pk-x56FsCw-xOnV__A3l6hqrlUVukKyx6gf31DpiO4hn4Vep6U5w/exec?key=products";
 
 /**
  * Fetch products from Google Apps Script and save them to data/products.json.
+ *
+ * The API directly returns an array of products.
  *
  * Any fatal error is thrown so that the outer catch block can set
  * process.exitCode = 1. This is important when running inside GitHub Actions.
@@ -21,14 +23,14 @@ async function fetchAndSaveProducts() {
     // ---------------------------------------------------------
     // 1. Fetch data from Google Apps Script
     // ---------------------------------------------------------
-    let apiResponse;
+    let products;
 
     try {
         const response = await fetch(API_URL, {
             method: "GET",
             redirect: "follow",
             headers: {
-                "Accept": "application/json"
+                Accept: "application/json"
             }
         });
 
@@ -38,7 +40,7 @@ async function fetchAndSaveProducts() {
             );
         }
 
-        apiResponse = await response.json();
+        products = await response.json();
 
         console.log("✅ Successfully fetched and parsed API response.");
 
@@ -52,48 +54,35 @@ async function fetchAndSaveProducts() {
     // ---------------------------------------------------------
     // 2. Validate API response
     // ---------------------------------------------------------
-    if (
-        apiResponse === null ||
-        typeof apiResponse !== "object" ||
-        Array.isArray(apiResponse)
-    ) {
-        throw new Error(
-            "Invalid API response: expected a JSON object containing a 'products' key."
-        );
-    }
-
-    // ---------------------------------------------------------
-    // 3. Extract products
-    // ---------------------------------------------------------
-    let products = apiResponse.products;
-
     if (!Array.isArray(products)) {
         throw new Error(
-            `Invalid products data: expected an array but received ${typeof products}.`
+            `Invalid API response: expected an array of products but received ${typeof products}.`
         );
     }
 
     console.log(`Received ${products.length} products from API.`);
 
     // ---------------------------------------------------------
-    // 4. Apply product filtering
+    // 3. Filter and extract required product fields
     // ---------------------------------------------------------
-    products = products.filter(
-        product =>
-            product.name?.length > 4 &&
-            product.category?.length > 0 &&
-            product.active &&
-            product.weight > 0
-    ).map(product => ({
-        id: product.id,
-        name: product.name,
-        images: product.images
-    }));;
+    products = products
+        .filter(
+            product =>
+                product.name?.length > 4 &&
+                product.category?.length > 0 &&
+                product.active &&
+                product.weight > 0
+        )
+        .map(product => ({
+            id: product.id,
+            name: product.name,
+            images: product.images
+        }));
 
     console.log(`Products after filtering: ${products.length}`);
 
     // ---------------------------------------------------------
-    // 5. Make sure data folder exists
+    // 4. Make sure data folder exists
     // ---------------------------------------------------------
     await mkdir(DATA_FOLDER, {
         recursive: true
@@ -102,7 +91,7 @@ async function fetchAndSaveProducts() {
     console.log(`✅ Data folder ready: ${DATA_FOLDER}`);
 
     // ---------------------------------------------------------
-    // 6. Write products.json
+    // 5. Write products.json
     // ---------------------------------------------------------
     const jsonString = JSON.stringify(products, null, 2);
 
@@ -111,7 +100,6 @@ async function fetchAndSaveProducts() {
     console.log(`✅ Products saved successfully: ${OUTPUT_FILE}`);
     console.log("\n--- Product Data Generation Complete ---");
 }
-
 
 // -------------------------------------------------------------
 // Main
@@ -131,7 +119,6 @@ try {
     }
 
     // IMPORTANT FOR GITHUB ACTIONS:
-    // Mark the Node.js process as failed without immediately
-    // terminating it. GitHub Actions will see exit code 1.
+    // Mark the Node.js process as failed.
     process.exitCode = 1;
 }
