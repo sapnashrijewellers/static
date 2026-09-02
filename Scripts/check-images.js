@@ -299,11 +299,9 @@ async function checkProductImages() {
     // Exit status
     // --------------------------------------------------
 
-    if (missingImages.length > 0) {
+    if (missingImages.length > 0 || extraImages.length > 0) {
 
-        console.error(
-            `\n❌ Image check failed: ${missingImages.length} missing image(s).`
-        );
+        console.error(`\n❌ Image check failed: ${missingImages.length} missing image(s), ${extraImages.length} extra image(s). Please review the above list(s) and fix the issues.`);
 
         process.exit(1);
     }
