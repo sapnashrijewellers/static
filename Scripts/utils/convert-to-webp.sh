@@ -4,7 +4,7 @@
 set -euo pipefail
 
 # Target folder: pass as 1st argument or default to current directory
-TARGET_DIR="img/"
+TARGET_DIR="."
 
 echo "=========================================="
 echo " Starting Bulk WebP Conversion"
