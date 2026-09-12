@@ -1,4 +1,3 @@
-
 import fs from 'fs/promises';
 import path from 'path';
 
@@ -9,7 +8,6 @@ import path from 'path';
 const PRODUCTS_FILE = './data/products.json';
 const OPTIMIZED_IMG_DIR = './img/products/optimized';
 
-
 // --------------------------------------------------
 // Helpers
 // --------------------------------------------------
@@ -19,30 +17,20 @@ function fail(message) {
     process.exit(1);
 }
 
+/**
+ * Strips extension, trims, and converts to lowercase.
+ * e.g., "  Product-A.WEBP  " -> "product-a"
+ */
+function normalizeBaseName(filename) {
+    if (!filename) return '';
+    const parsed = path.parse(String(filename).trim());
+    return parsed.name.trim().toLowerCase();
+}
 
 /**
  * Normalize the "images" attribute.
- *
- * Supports:
- *
- * 1. Array:
- *
- * images: [
- *   "abc.webp",
- *   "xyz.webp"
- * ]
- *
- * 2. Multiline string:
- *
- * images: "abc.webp
- * xyz.webp"
- *
- * IMPORTANT:
- * Split ONLY on newline.
- * Spaces inside filenames are preserved.
  */
 function normalizeImages(images, productId) {
-
     if (images == null) {
         return [];
     }
@@ -57,7 +45,6 @@ function normalizeImages(images, productId) {
         console.warn(
             `⚠️ Product ${productId} has invalid "images" value.`
         );
-
         return [];
     }
 
@@ -66,15 +53,13 @@ function normalizeImages(images, productId) {
         .filter(image => image.length > 0);
 }
 
-
 // --------------------------------------------------
 // Main
 // --------------------------------------------------
 
 async function checkProductImages() {
-
     console.log('==============================================');
-    console.log('        Product Image Checker');
+    console.log('         Product Image Checker');
     console.log('==============================================');
 
     console.log('\nProducts file:');
@@ -82,7 +67,6 @@ async function checkProductImages() {
 
     console.log('\nOptimized image directory:');
     console.log(path.resolve(OPTIMIZED_IMG_DIR));
-
 
     // --------------------------------------------------
     // Check products.json
@@ -92,26 +76,17 @@ async function checkProductImages() {
 
     try {
         const stat = await fs.stat(PRODUCTS_FILE);
-
         if (!stat.isFile()) {
             fail('products.json exists but is not a file.');
         }
-
     } catch (error) {
-
         if (error.code === 'ENOENT') {
-            fail(
-                `products.json not found:\n${path.resolve(PRODUCTS_FILE)}`
-            );
+            fail(`products.json not found:\n${path.resolve(PRODUCTS_FILE)}`);
         }
-
-        fail(
-            `Unable to access products.json:\n${error.message}`
-        );
+        fail(`Unable to access products.json:\n${error.message}`);
     }
 
     console.log('✅ products.json found');
-
 
     // --------------------------------------------------
     // Check optimized directory
@@ -121,28 +96,17 @@ async function checkProductImages() {
 
     try {
         const stat = await fs.stat(OPTIMIZED_IMG_DIR);
-
         if (!stat.isDirectory()) {
-            fail(
-                `Optimized image path exists but is not a directory:\n${path.resolve(OPTIMIZED_IMG_DIR)}`
-            );
+            fail(`Optimized image path exists but is not a directory:\n${path.resolve(OPTIMIZED_IMG_DIR)}`);
         }
-
     } catch (error) {
-
         if (error.code === 'ENOENT') {
-            fail(
-                `Optimized image directory not found:\n${path.resolve(OPTIMIZED_IMG_DIR)}`
-            );
+            fail(`Optimized image directory not found:\n${path.resolve(OPTIMIZED_IMG_DIR)}`);
         }
-
-        fail(
-            `Unable to access optimized image directory:\n${error.message}`
-        );
+        fail(`Unable to access optimized image directory:\n${error.message}`);
     }
 
     console.log('✅ optimized directory found');
-
 
     // --------------------------------------------------
     // Read products.json
@@ -155,11 +119,8 @@ async function checkProductImages() {
     try {
         const data = await fs.readFile(PRODUCTS_FILE, 'utf8');
         products = JSON.parse(data);
-
     } catch (error) {
-        fail(
-            `Unable to read/parse products.json:\n${error.message}`
-        );
+        fail(`Unable to read/parse products.json:\n${error.message}`);
     }
 
     if (!Array.isArray(products)) {
@@ -168,17 +129,17 @@ async function checkProductImages() {
 
     console.log(`✅ ${products.length} products loaded`);
 
-
     // --------------------------------------------------
     // Collect product image references
     // --------------------------------------------------
 
     console.log('\nCollecting product image references...');
 
-    const referencedImages = new Set();
+    // Map: normalizedBaseName -> Set of original reference names
+    const referencedByBaseName = new Map();
+    let totalReferenceCount = 0;
 
     for (const product of products) {
-
         if (!product || typeof product !== 'object') {
             continue;
         }
@@ -189,14 +150,18 @@ async function checkProductImages() {
         );
 
         for (const image of images) {
-            referencedImages.add(image);
+            totalReferenceCount++;
+            const baseKey = normalizeBaseName(image);
+            if (!baseKey) continue;
+
+            if (!referencedByBaseName.has(baseKey)) {
+                referencedByBaseName.set(baseKey, new Set());
+            }
+            referencedByBaseName.get(baseKey).add(image);
         }
     }
 
-    console.log(
-        `✅ ${referencedImages.size} unique image references found`
-    );
-
+    console.log(`✅ ${totalReferenceCount} image references (${referencedByBaseName.size} unique base names) found`);
 
     // --------------------------------------------------
     // Read optimized directory
@@ -211,38 +176,50 @@ async function checkProductImages() {
             OPTIMIZED_IMG_DIR,
             { withFileTypes: true }
         );
-
     } catch (error) {
-        fail(
-            `Unable to read optimized image directory:\n${error.message}`
-        );
+        fail(`Unable to read optimized image directory:\n${error.message}`);
     }
 
-    const actualImages = directoryEntries
+    const actualFiles = directoryEntries
         .filter(entry => entry.isFile())
         .map(entry => entry.name);
 
-    console.log(
-        `✅ ${actualImages.length} files found in optimized directory`
-    );
+    // Map: normalizedBaseName -> Set of actual disk filenames
+    const actualByBaseName = new Map();
 
+    for (const file of actualFiles) {
+        const baseKey = normalizeBaseName(file);
+        if (!baseKey) continue;
+
+        if (!actualByBaseName.has(baseKey)) {
+            actualByBaseName.set(baseKey, new Set());
+        }
+        actualByBaseName.get(baseKey).add(file);
+    }
+
+    console.log(`✅ ${actualFiles.length} files (${actualByBaseName.size} unique base names) found in optimized directory`);
 
     // --------------------------------------------------
-    // Compare
+    // Compare base names
     // --------------------------------------------------
 
-    const actualImageSet = new Set(actualImages);
+    // Base names referenced in JSON but not present on disk
+    const missingImages = [];
+    for (const [baseKey, originalRefs] of referencedByBaseName.entries()) {
+        if (!actualByBaseName.has(baseKey)) {
+            missingImages.push(...originalRefs);
+        }
+    }
+    missingImages.sort((a, b) => a.localeCompare(b));
 
-    // Referenced by products but missing from disk
-    const missingImages = [...referencedImages]
-        .filter(image => !actualImageSet.has(image))
-        .sort((a, b) => a.localeCompare(b));
-
-    // Present on disk but not referenced by products
-    const extraImages = actualImages
-        .filter(image => !referencedImages.has(image))
-        .sort((a, b) => a.localeCompare(b));
-
+    // Files on disk whose base names are not referenced in JSON
+    const extraImages = [];
+    for (const [baseKey, actualDiskFiles] of actualByBaseName.entries()) {
+        if (!referencedByBaseName.has(baseKey)) {
+            extraImages.push(...actualDiskFiles);
+        }
+    }
+    extraImages.sort((a, b) => a.localeCompare(b));
 
     // --------------------------------------------------
     // Result
@@ -253,65 +230,50 @@ async function checkProductImages() {
     console.log('==============================================');
 
     console.log(`Products              : ${products.length}`);
-    console.log(`Referenced images     : ${referencedImages.size}`);
-    console.log(`Images on disk        : ${actualImages.length}`);
+    console.log(`Referenced images     : ${totalReferenceCount}`);
+    console.log(`Images on disk        : ${actualFiles.length}`);
     console.log(`Missing images        : ${missingImages.length}`);
     console.log(`Extra images          : ${extraImages.length}`);
-
 
     // --------------------------------------------------
     // Missing images
     // --------------------------------------------------
 
     if (missingImages.length > 0) {
-
-        console.error('\n❌ MISSING IMAGES:');
-
+        console.error('\n❌ MISSING IMAGES (no matching base name on disk):');
         for (const image of missingImages) {
             console.error(`   ${image}`);
         }
-
     } else {
-
         console.log('\n✅ All product images exist.');
     }
-
 
     // --------------------------------------------------
     // Extra images
     // --------------------------------------------------
 
     if (extraImages.length > 0) {
-
-        console.warn('\n⚠️ EXTRA / UNREFERENCED IMAGES:');
-
+        console.warn('\n⚠️ EXTRA / UNREFERENCED IMAGES (no matching base name in JSON):');
         for (const image of extraImages) {
             console.warn(`   ${image}`);
         }
-
     } else {
-
         console.log('\n✅ No extra images found.');
     }
-
 
     // --------------------------------------------------
     // Exit status
     // --------------------------------------------------
 
     if (missingImages.length > 0 || extraImages.length > 0) {
-
         console.error(`\n❌ Image check failed: ${missingImages.length} missing image(s), ${extraImages.length} extra image(s). Please review the above list(s) and fix the issues.`);
-
         process.exit(1);
     }
-
 
     console.log('\n==============================================');
     console.log('             Check completed');
     console.log('==============================================\n');
 }
-
 
 // --------------------------------------------------
 // Execute
@@ -320,9 +282,7 @@ async function checkProductImages() {
 console.log('Starting check-product-images.js...');
 
 checkProductImages().catch(error => {
-
     console.error('\n❌ Unexpected error:');
     console.error(error);
-
     process.exit(1);
 });

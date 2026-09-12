@@ -69,7 +69,7 @@ async function fetchAndSaveProducts() {
         .filter(
             product =>
                 product.name?.length > 4 &&
-                product.category?.length > 0 &&
+                product.collection?.length > 0 &&
                 product.active &&
                 product.weight > 0
         )
