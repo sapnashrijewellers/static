@@ -25,22 +25,47 @@ console.log("Thumbnail directory:", THUMBNAIL_DIR);
  * Create SVG watermark buffer dynamically based on image width
  */
 function createWatermarkSVG(width, height) {
-    const fontSize = Math.max(Math.round(width * 0.04), 18); // responsive font
-    const padding = Math.round(fontSize * 0.8);
+    const fontSize = Math.max(Math.round(width * 0.03), 18); // responsive font, min 18px
+
+    const text = "Sapna Shri Jewellers";
+    const estimatedTextWidth = text.length * fontSize * 0.55; // ~0.55x font size per character
+    const horizontalPadding = fontSize * 0.8;
+    const verticalPadding = fontSize * 0.5;
+
+    const badgeWidth = Math.round(estimatedTextWidth + horizontalPadding * 2);
+    const badgeHeight = Math.round(fontSize + verticalPadding * 2);
+    const cornerRadius = Math.round(badgeHeight * 0.2);
+
+    const marginFromEdge = Math.round(width * 0.03);
+    const badgeX = width - badgeWidth - marginFromEdge;
+    const badgeY = height - badgeHeight - marginFromEdge;
+
+    const textX = badgeX + badgeWidth / 2;
+    const textY = badgeY + badgeHeight / 2;
 
     return Buffer.from(`
     <svg width="${width}" height="${height}">
+      <rect
+        x="${badgeX}"
+        y="${badgeY}"
+        width="${badgeWidth}"
+        height="${badgeHeight}"
+        rx="${cornerRadius}"
+        fill="rgba(50,50,50,0.6)"
+        stroke="rgba(255,255,255,0.2)"
+        stroke-width="1"
+      />
       <text
-        x="50%"
-        y="${height - padding}"
+        x="${textX}"
+        y="${textY}"
         text-anchor="middle"
+        dominant-baseline="middle"
         font-size="${fontSize}"
-        fill="white"
-        fill-opacity="0.45"
+        fill="#FFFFFF"
         font-family="Arial, Helvetica, sans-serif"
         style="letter-spacing: 1px;"
       >
-        Sapna Shri Jewellers
+        ${text}
       </text>
     </svg>
   `);
@@ -124,31 +149,15 @@ async function createThumbnail(inputPath, filename) {
   const thumbPath = path.join(THUMBNAIL_DIR, `${baseName}.webp`);
 
   try {
-    // 1️⃣ Resize first and materialize
-    const resizedBuffer = await sharp(inputPath)
+    await sharp(inputPath)
       .resize(400, 400, {
         fit: "inside",
         withoutEnlargement: true,
       })
-      .toBuffer();
-
-    // 2️⃣ Read metadata from resized image
-    const resizedImage = sharp(resizedBuffer);
-    const metadata = await resizedImage.metadata();
-
-    // 3️⃣ Create watermark matching resized dimensions
-    const watermarkSVG = createWatermarkSVG(
-      metadata.width,
-      metadata.height
-    );
-
-    // 4️⃣ Composite watermark safely
-    await resizedImage
-      .composite([{ input: watermarkSVG }])
       .webp({ quality: 80 })
       .toFile(thumbPath);
 
-    console.log(`🖼️ Thumbnail + Watermark: ${filename}`);
+    console.log(`🖼️ Thumbnail: ${filename}`);
   } catch (error) {
     console.error(`❌ Failed to create thumbnail for ${filename}:`, error.message);
   }
