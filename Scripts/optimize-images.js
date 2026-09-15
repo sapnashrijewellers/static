@@ -29,8 +29,8 @@ function createWatermarkSVG(width, height) {
 
     const text = "Sapna Shri Jewellers";
     const estimatedTextWidth = text.length * fontSize * 0.55; // ~0.55x font size per character
-    const horizontalPadding = fontSize * 0.8;
-    const verticalPadding = fontSize * 0.5;
+    const horizontalPadding = fontSize * 0.5;
+    const verticalPadding = fontSize * 0.3;
 
     const badgeWidth = Math.round(estimatedTextWidth + horizontalPadding * 2);
     const badgeHeight = Math.round(fontSize + verticalPadding * 2);
