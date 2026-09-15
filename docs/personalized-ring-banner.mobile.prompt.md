@@ -8,10 +8,12 @@ This is the mobile artwork for a responsive website hero carousel. It should **n
 
 Use the following campaign copy ONLY to understand the desired emotional direction and visual storytelling.
 
-**Eyebrow:** `[EYEBROW]`
-**Headline:** `[HEADLINE]`
-**Description:** `[DESCRIPTION]`
-**CTA:** `[CTA]`
+**Eyebrow:** `SAWARIYA SETH`
+**Headline:** `A Symbol of Devotion`
+**Description:** `Crafted in silver with a sense of purity and spiritual elegance, inspired by the timeless devotion to Sawariya Seth.`
+**CTA:** `Explore Sawariya Seth`
+
+Use Sawariya Seth Devotional background
 
 **Do NOT render any of this text inside the image.**
 
@@ -72,9 +74,8 @@ The final website asset will be optimized to WebP.
 
 The image must remain visually effective inside a responsive mobile hero container using:
 
-```text
 aspect-ratio: 4 / 3
-```
+
 
 Do not create an ultra-wide desktop composition and simply crop it to mobile.
 

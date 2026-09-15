@@ -6,10 +6,14 @@ Create a **luxurious, editorial-style jewellery ecommerce hero banner** for **Sa
 
 Use the following copy ONLY as **creative direction for the mood, subject, composition, and visual storytelling**. **Do NOT render any of this text inside the generated image.**
 
-**Eyebrow:** `[EYEBROW]`
-**Headline:** `[HEADLINE]`
-**Description:** `[DESCRIPTION]`
-**CTA:** `[CTA]`
+			
+
+**Eyebrow:** `SAWARIYA SETH`
+**Headline:** `A Symbol of Devotion`
+**Description:** `Crafted in silver with a sense of purity and spiritual elegance, inspired by the timeless devotion to Sawariya Seth.`
+**CTA:** `Explore Sawariya Seth`
+
+Use Sawariya Seth Devotional background
 
 The visual should communicate the emotional idea of the headline and eyebrow rather than literally illustrating the words.
 
@@ -55,9 +59,9 @@ The composition must remain visually strong when displayed responsively inside a
 
 ### Important composition rule
 
-Design the image with a **large clean negative-space area on the LEFT approximately 38–42% of the canvas**.
+Design the image with a **Create a visually complete composition across the entire 3:1 canvas. Reserve approximately 35–40% of the LEFT side for HTML copy, but do not leave this region blank. Build subtle, low-contrast editorial atmosphere into the copy area using soft material textures, architectural forms, gentle shadows, tonal gradients, or out-of-focus environmental elements. The copy area must remain calm enough for typography, but should still feel intentionally designed and visually connected to the jewellery scene on the right. Avoid obvious objects or high-contrast details behind the text.**.
 
-The jewellery/product composition should occupy approximately the **RIGHT 58–62%**.
+The main jewellery should occupy approximately the RIGHT 55–60%, while the supporting environment, lighting, material textures, shadows and visual atmosphere should extend naturally across the entire canvas. Do not create a hard visual division between the copy area and product area.
 
 The left area must remain visually quiet enough for HTML text to be placed over it later.
 
