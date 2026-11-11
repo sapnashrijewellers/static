@@ -58,13 +58,26 @@ async function fetchAndSaveProducts() {
         throw new Error(
             `Invalid API response: expected an array of products but received ${typeof products}.`
         );
+
     }
 
     console.log(`Received ${products.length} products from API.`);
 
+    if (products.length ===0) {
+        throw new Error(
+            "Fatal: ssjDataService returned 0 products. " +
+            "Aborting pipeline to avoid false image mismatches."
+        );
+
+    }
+
+
     // ---------------------------------------------------------
     // 3. Filter and extract required product fields
     // ---------------------------------------------------------
+
+    const rawCount = products.length;
+
     products = products
         .filter(
             product =>
@@ -80,6 +93,14 @@ async function fetchAndSaveProducts() {
         }));
 
     console.log(`Products after filtering: ${products.length}`);
+
+
+    if (products.length === 0) {
+        throw new Error(
+            `Fatal: ssjDataService returned ${rawCount} products, but 0 passed validation. ` +
+            "Aborting pipeline to avoid false image mismatches."
+        );
+    }
 
     // ---------------------------------------------------------
     // 4. Make sure data folder exists
